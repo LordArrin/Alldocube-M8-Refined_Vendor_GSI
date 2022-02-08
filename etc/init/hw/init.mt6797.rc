@@ -53,11 +53,11 @@ on init
     write /proc/sys/net/core/rmem_max 8388608
 
 # update cpus for cpuset cgroup
-    write /dev/cpuset/foreground/cpus 0-7
-    write /dev/cpuset/foreground/boost/cpus 0-9
-    write /dev/cpuset/background/cpus 0-3
-    write /dev/cpuset/system-background/cpus 0-5
-    write /dev/cpuset/top-app/cpus 0-9
+#    write /dev/cpuset/foreground/cpus 0-7
+#    write /dev/cpuset/foreground/boost/cpus 0-9
+#    write /dev/cpuset/background/cpus 0-3
+#    write /dev/cpuset/system-background/cpus 0-5
+#    write /dev/cpuset/top-app/cpus 0-9
 
 on late-init
     write /proc/bootprof "INIT:late-init"
@@ -808,21 +808,28 @@ on property:sys.boot_completed=1
     # set perf. parameters
     write /proc/ppm/policy/userlimit_min_cpu_core "2 2"
 #    write /proc/ppm/policy/userlimit_max_cpu_core "2 2"
-    write /proc/ppm/policy/userlimit_min_cpu_core "1 0"
+    write /proc/ppm/policy/userlimit_min_cpu_core "1 -1"
 #    write /proc/ppm/policy/userlimit_max_cpu_core "1 4"
-    write /proc/ppm/policy/userlimit_min_cpu_core "0 0"
+    write /proc/ppm/policy/userlimit_min_cpu_core "0 -1"
 #    write /proc/ppm/policy/userlimit_max_cpu_core "0 4"
+    write /proc/ppm/policy_status "0 0"
+    write /proc/ppm/policy_status "1 1"
     write /proc/ppm/policy_status "2 0"
     write /proc/ppm/policy_status "3 0"
-#    write /proc/ppm/policy_status "4 0"
+    write /proc/ppm/policy_status "4 0"
     write /proc/ppm/policy_status "5 0"
+    write /proc/ppm/policy_status "6 1"
+    write /proc/ppm/policy_status "7 0"
     write /proc/ppm/policy_status "8 0"
+    write /proc/ppm/policy_status "9 0"
+    write /proc/ppm/policy_status "10 1"
+    write /proc/ppm/policy/sysboost_freq "2 0"
     write /proc/ppm/policy/hica_is_limit_big_freq "0"
     write /sys/block/zram0/queue/nr_requests "512"
     # Open 0 small cores 0 large cores 2 maximum cores
-    write /proc/ppm/policy/ut_fix_core_num "-1 -1 2"
+#    write /proc/ppm/policy/ut_fix_core_num "-1 -1 2"
     # The highest frequency for small cores, the highest frequency for large cores, and the highest frequency for largest cores (from 0 to 15)
-    write /proc/ppm/policy/ut_fix_freq_idx "-1 -1 -1"
+#    write /proc/ppm/policy/ut_fix_freq_idx "-1 -1 -1"
     # Contains, as a percentage of total available memory that contains free pages and reclaimable pages, 
     # the number of pages at which a process which is generating disk writes will itself start writing out dirty data.
     write /proc/sys/vm/dirty_ratio "95"

@@ -2,6 +2,6 @@ service camerahalserver /vendor/bin/hw/camerahalserver
     class main
     user cameraserver
     group audio camera input drmrpc sdcard_rw system media graphics
-    ioprio rt 4
-    capabilities SYS_NICE
-    writepid /dev/cpuset/camera-daemon/tasks /dev/stune/top-app/tasks
+    ioprio rt 1
+    capabilities SYS_ADMIN SYS_BOOT SYS_CHROOT SYS_RESOURCE
+    writepid /dev/cpuset/top-app/tasks /dev/stune/top-app/tasks
