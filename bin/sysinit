@@ -1,0 +1,102 @@
+#!/vendor/bin/sh
+
+export PATH=/system/bin:/system/sbin:/sbin:/system/xbin:/vendor/bin	# путь к исполняемым файлам для этого скрипта
+AUTOSTART_PATH=/vendor/etc/init.d						# директория, из которой осуществляется запуск
+PAUSE_START=30											# пауза (в секундах) перед запуском следующего скрипта, имя которого начинается с цифры, если предидущий скрипт, имя которого начинается с цифры, не завершён (возможно завис, но принудительно завершён он не будет)
+
+check_path="$1"
+changes=1
+[ -d "$check_path" ] || [ -f "$check_path" ] && AUTOSTART_PATH="$check_path" && changes=0
+
+check=$(getprop sys.boot_completed 2>/dev/null)
+[ -z "$check" ] && check=1
+while (( $check != 1 ))
+do check=$(getprop sys.boot_completed)
+done
+
+readme()
+{
+echo "Запуск скриптов из \"$AUTOSTART_PATH\"."
+echo ''
+echo 'Все файлы и каталоги, имена которых начинаются с # - игнорируются.'
+echo 'Максимальная вложенность - два каталога (основной и ещё один).'
+echo 'Допускаются симлинки на файлы и каталоги (симлинки на каталоги принимаются только из основного каталога).'
+echo 'В качестве первого и единственного аргумента, можно указать путь к запускаемому файлу или каталогу.'
+echo ''
+echo '_сначала запускаютя все файлы, имена которых не начинаются с цифр, из каталогов, имена которых не начинаются с цифр (файлы и каталоги запускаются параллельно)'
+echo '_затем запускаются файлы, имена которых начинаются с цифр, из каталогов, имена которых не нацинаются с цифр (каталоги запускаются параллельно, а файлы - последовательно)'
+echo '_затем запускаются файлы, имена которых начинаются с цифр, из основного каталога, и запускаются из каталогов, имена которых начинаются с цифр (всё запускается последовательно, кроме файлов, имена которых не начинаются с цифр - те, что находятся в каталоге, имя которого начинается с цифры, они запускаются параллельно, согласно очереди запуска каталога); запуск по порядку по возрастанию числа в имени файлов/каталогов'
+exit 0
+}
+
+start_script()
+{
+(sh "$start_path" 2>/dev/null)&
+start_id=$!
+i=0
+while (( $i < $PAUSE_START ))
+do
+check=$(ps "$start_id" 2>/dev/null | sed '/'"$start_id"'/!d')
+[ -z "$check" ] && break
+let i=i+1
+sleep 1
+done
+}
+
+[ -n "$2" ] && readme
+(( $changes != 0 )) && [ -n "$check_path" ] && echo 'Ошибка в указанном пути!' && exit
+
+find -L "$AUTOSTART_PATH" -maxdepth 2 -type f 2>/dev/null | sed '/\/#/d;/\/[0-9]/d' | sort -u | while read bckg_start_path
+do (sh "$bckg_start_path" 2>/dev/null)&
+done
+
+find -L "$AUTOSTART_PATH" -maxdepth 1 -type d 2>/dev/null | sed '/\/#/d;/\/[0-9]/d' | sort -u | sed '1d' | while read no_num_dir_path
+do
+(find -L "$no_num_dir_path" -maxdepth 1 -type f 2>/dev/null | sed '\/#/d;/\/[0-9]/!d' | sort -u | while read start_path
+do start_script
+done)&
+done
+
+find -L "$AUTOSTART_PATH" -maxdepth 1 2>/dev/null | sed '/\/#/d;/\/[0-9]/!d' | sort -u | while read num_start_path
+do
+if [ -f "$num_start_path" ]
+then
+start_path="$num_start_path"
+start_script
+elif [ -d "$num_start_path" ]
+then
+find -L "$num_start_path" -maxdepth 1 -type f 2>/dev/null | sed '/\/#/d;/\/[0-9][^\/]*$/d' | sort -u | while read bckg_start_path
+do (sh "$bckg_start_path" 2>/dev/null)&
+done
+find -L "$num_start_path" -maxdepth 1 -type f 2>/dev/null | sed '/\/#/d;/\/[0-9][^\/]*$/!d' | sort -u | while read start_path
+do start_script
+done
+fi
+done
+
+if (( $changes != 0 ))
+then
+mount -o rw,remount /system
+find -L "$AUTOSTART_PATH" -maxdepth 3 2>/dev/null | while read path
+do chmod 755 "$path" 2>/dev/null
+done
+sum_autostart_path=$(echo "$AUTOSTART_PATH" | sed 's/[^\/]//g' | wc -m)
+find -L "$AUTOSTART_PATH" -maxdepth 2 -type d 2>/dev/null | while read path
+do
+sum_path=$(echo "$path" | sed 's/[^\/]//g' | wc -m)
+let diff_sum_path=sum_path-sum_autostart_path
+if (( $diff_sum_path > 1 ))
+then
+check=$(echo "$path" | sed '/\/#[^\/]*$/!d')
+if [ -z "$check" ]
+then
+new_path=$(echo "$path" | sed 's/\/\([^\/]*\)$/\/#\1/')
+mv "$path" "$new_path" 2>/dev/null
+fi
+fi
+done
+mount -o ro,remount /system
+fi
+
+exit 0
+

@@ -1,0 +1,1219 @@
+vendor/app 0 2000 0755
+vendor/app/AutoDialer 0 2000 0755
+vendor/app/AutoDialer/AutoDialer.apk 0 0 0644
+vendor/app/LPPeService 0 2000 0755
+vendor/app/LPPeService/LPPeService.apk 0 0 0644
+vendor/app/LocationEM2 0 2000 0755
+vendor/app/LocationEM2/LocationEM2.apk 0 0 0644
+vendor/app/MTKLoggerProxy 0 2000 0755
+vendor/app/MTKLoggerProxy/MTKLoggerProxy.apk 0 0 0644
+vendor/app/MTKThermalManager 0 2000 0755
+vendor/app/MTKThermalManager/MTKThermalManager.apk 0 0 0644
+vendor/app/SimRecoveryTestTool 0 2000 0755
+vendor/app/SimRecoveryTestTool/SimRecoveryTestTool.apk 0 0 0644
+vendor/app/SoundRecorder 0 2000 0755
+vendor/app/SoundRecorder/SoundRecorder.apk 0 0 0644
+vendor/bin 0 2000 0755
+vendor/bin/acpi 0 2000 0755 toybox_vendor
+vendor/bin/aee_aedv 0 2000 0755
+vendor/bin/aee_aedv64 0 2000 0755
+vendor/bin/aee_archivev 0 2000 0755
+vendor/bin/aee_core_forwarder 0 2000 0755
+vendor/bin/aee_dumpstatev 0 2000 0755
+vendor/bin/aeev 0 2000 0755
+vendor/bin/autobt 0 2000 0755
+vendor/bin/base64 0 2000 0755 toybox_vendor
+vendor/bin/basename 0 2000 0755 toybox_vendor
+vendor/bin/blockdev 0 2000 0755 toybox_vendor
+vendor/bin/cal 0 2000 0755 toybox_vendor
+vendor/bin/cat 0 2000 0755 toybox_vendor
+vendor/bin/ccci_fsd 0 2000 0755
+vendor/bin/ccci_mdinit 0 2000 0755
+vendor/bin/charon 0 2000 0755
+vendor/bin/chcon 0 2000 0755 toybox_vendor
+vendor/bin/chgrp 0 2000 0755 toybox_vendor
+vendor/bin/chmod 0 2000 0755 toybox_vendor
+vendor/bin/chown 0 2000 0755 toybox_vendor
+vendor/bin/chroot 0 2000 0755 toybox_vendor
+vendor/bin/chrt 0 2000 0755 toybox_vendor
+vendor/bin/cksum 0 2000 0755 toybox_vendor
+vendor/bin/clear 0 2000 0755 toybox_vendor
+vendor/bin/cmp 0 2000 0755 toybox_vendor
+vendor/bin/comm 0 2000 0755 toybox_vendor
+vendor/bin/cp 0 2000 0755 toybox_vendor
+vendor/bin/cpio 0 2000 0755 toybox_vendor
+vendor/bin/cut 0 2000 0755 toybox_vendor
+vendor/bin/date 0 2000 0755 toybox_vendor
+vendor/bin/df 0 2000 0755 toybox_vendor
+vendor/bin/dirname 0 2000 0755 toybox_vendor
+vendor/bin/dmesg 0 2000 0755 toybox_vendor
+vendor/bin/dos2unix 0 2000 0755 toybox_vendor
+vendor/bin/du 0 2000 0755 toybox_vendor
+vendor/bin/echo 0 2000 0755 toybox_vendor
+vendor/bin/env 0 2000 0755 toybox_vendor
+vendor/bin/epdg_wod 0 2000 0755
+vendor/bin/expand 0 2000 0755 toybox_vendor
+vendor/bin/expr 0 2000 0755 toybox_vendor
+vendor/bin/fallocate 0 2000 0755 toybox_vendor
+vendor/bin/false 0 2000 0755 toybox_vendor
+vendor/bin/file 0 2000 0755 toybox_vendor
+vendor/bin/find 0 2000 0755 toybox_vendor
+vendor/bin/flashlessd 0 2000 0755
+vendor/bin/flock 0 2000 0755 toybox_vendor
+vendor/bin/free 0 2000 0755 toybox_vendor
+vendor/bin/fuelgauged 0 2000 0755
+vendor/bin/getenforce 0 2000 0755 toybox_vendor
+vendor/bin/getprop 0 2000 0755 toybox_vendor
+vendor/bin/groups 0 2000 0755 toybox_vendor
+vendor/bin/gsm0710muxd 0 2000 0755
+vendor/bin/head 0 2000 0755 toybox_vendor
+vendor/bin/hostapd 1010 1010 0755 capabilities=0x3000
+vendor/bin/hostapd_cli 0 2000 0755
+vendor/bin/hostname 0 2000 0755 toybox_vendor
+vendor/bin/hw 0 2000 0755
+vendor/bin/hw/android.hardware.audio@2.0-service-mediatek 1041 1041 0700 capabilities=0x800000
+vendor/bin/hw/android.hardware.configstore@1.0-service 0 2000 0755
+vendor/bin/hw/android.hardware.drm@1.0-service 0 2000 0755
+vendor/bin/hw/android.hardware.drm@1.0-service.widevine 0 2000 0755
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service 0 2000 0755
+vendor/bin/hw/android.hardware.graphics.allocator@2.0-service 0 2000 0755
+vendor/bin/hw/android.hardware.graphics.composer@2.1-service 0 2000 0755
+vendor/bin/hw/android.hardware.keymaster@3.0-service 0 2000 0755
+vendor/bin/hw/android.hardware.light@2.0-service-mediatek 0 2000 0755
+vendor/bin/hw/android.hardware.media.omx@1.0-service 0 2000 0755
+vendor/bin/hw/android.hardware.memtrack@1.0-service 0 2000 0755
+vendor/bin/hw/android.hardware.sensors@1.0-service-mediatek 0 2000 0755
+vendor/bin/hw/android.hardware.thermal@1.0-service 0 2000 0755
+vendor/bin/hw/android.hardware.vibrator@1.0-service 0 2000 0755
+vendor/bin/hw/android.hardware.wifi@1.0-service 1010 1010 0755 capabilities=0x3000
+vendor/bin/hw/camerahalserver 0 2000 0755
+vendor/bin/hw/power_native_test 0 2000 0755
+vendor/bin/hw/rilproxy 0 2000 0755
+vendor/bin/hw/vendor.mediatek.hardware.bluetooth@1.1-service 0 2000 0755
+vendor/bin/hw/vendor.mediatek.hardware.gnss@1.1-service 0 2000 0755
+vendor/bin/hw/vendor.mediatek.hardware.imsa@1.0-service 0 2000 0755
+vendor/bin/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-service 0 2000 0755
+vendor/bin/hw/vendor.mediatek.hardware.power@1.1-service 0 2000 0755
+vendor/bin/hw/vendor.mediatek.hardware.pq@2.0-service 0 2000 0755
+vendor/bin/hw/vendor.mediatek.hardware.wfo@1.0-service 0 2000 0755
+vendor/bin/hw/vtservice_hidl 0 2000 0755
+vendor/bin/hw/wpa_supplicant 0 2000 0755
+vendor/bin/hwclock 0 2000 0755 toybox_vendor
+vendor/bin/id 0 2000 0755 toybox_vendor
+vendor/bin/ifconfig 0 2000 0755 toybox_vendor
+vendor/bin/inotifyd 0 2000 0755 toybox_vendor
+vendor/bin/insmod 0 2000 0755 toybox_vendor
+vendor/bin/ionice 0 2000 0755 toybox_vendor
+vendor/bin/iorenice 0 2000 0755 toybox_vendor
+vendor/bin/ipsec_mon 0 2000 0755
+vendor/bin/kill 0 2000 0755 toybox_vendor
+vendor/bin/killall 0 2000 0755 toybox_vendor
+vendor/bin/lbs_hidl_service 0 2000 0755
+vendor/bin/ln 0 2000 0755 toybox_vendor
+vendor/bin/load_policy 0 2000 0755 toybox_vendor
+vendor/bin/log 0 2000 0755 toybox_vendor
+vendor/bin/logname 0 2000 0755 toybox_vendor
+vendor/bin/losetup 0 2000 0755 toybox_vendor
+vendor/bin/ls 0 2000 0755 toybox_vendor
+vendor/bin/lsmod 0 2000 0755 toybox_vendor
+vendor/bin/lsof 0 2000 0755 toybox_vendor
+vendor/bin/lsusb 0 2000 0755 toybox_vendor
+vendor/bin/md5sum 0 2000 0755 toybox_vendor
+vendor/bin/md_ctrl 0 2000 0755
+vendor/bin/mfv_ut 0 2000 0755
+vendor/bin/microcom 0 2000 0755 toybox_vendor
+vendor/bin/mkdir 0 2000 0755 toybox_vendor
+vendor/bin/mknod 0 2000 0755 toybox_vendor
+vendor/bin/mkswap 0 2000 0755 toybox_vendor
+vendor/bin/mktemp 0 2000 0755 toybox_vendor
+vendor/bin/mnld 0 2000 0755
+vendor/bin/modinfo 0 2000 0755 toybox_vendor
+vendor/bin/modprobe 0 2000 0755 toybox_vendor
+vendor/bin/more 0 2000 0755 toybox_vendor
+vendor/bin/mount 0 2000 0755 toybox_vendor
+vendor/bin/mountpoint 0 2000 0755 toybox_vendor
+vendor/bin/mrdump_tool 0 2000 0755
+vendor/bin/mtk_agpsd 0 2000 0755
+vendor/bin/mtkcam-debug 0 2000 0755
+vendor/bin/mtkmal 0 2000 0755
+vendor/bin/mtkrild 0 2000 0755
+vendor/bin/muxreport 0 2000 0755
+vendor/bin/mv 0 2000 0755 toybox_vendor
+vendor/bin/netstat 0 2000 0755 toybox_vendor
+vendor/bin/nice 0 2000 0755 toybox_vendor
+vendor/bin/nl 0 2000 0755 toybox_vendor
+vendor/bin/nohup 0 2000 0755 toybox_vendor
+vendor/bin/nvram_agent_binder 0 2000 0755
+vendor/bin/nvram_daemon 0 2000 0755
+vendor/bin/od 0 2000 0755 toybox_vendor
+vendor/bin/paste 0 2000 0755 toybox_vendor
+vendor/bin/patch 0 2000 0755 toybox_vendor
+vendor/bin/pgrep 0 2000 0755 toybox_vendor
+vendor/bin/pidof 0 2000 0755 toybox_vendor
+vendor/bin/pkill 0 2000 0755 toybox_vendor
+vendor/bin/pmap 0 2000 0755 toybox_vendor
+vendor/bin/printenv 0 2000 0755 toybox_vendor
+vendor/bin/printf 0 2000 0755 toybox_vendor
+vendor/bin/ps 0 2000 0755 toybox_vendor
+vendor/bin/pwd 0 2000 0755 toybox_vendor
+vendor/bin/readlink 0 2000 0755 toybox_vendor
+vendor/bin/realpath 0 2000 0755 toybox_vendor
+vendor/bin/renice 0 2000 0755 toybox_vendor
+vendor/bin/resize_ext4 0 2000 0755
+vendor/bin/restorecon 0 2000 0755 toybox_vendor
+vendor/bin/rm 0 2000 0755 toybox_vendor
+vendor/bin/rmdir 0 2000 0755 toybox_vendor
+vendor/bin/rmmod 0 2000 0755 toybox_vendor
+vendor/bin/rs2spir 0 2000 0755
+vendor/bin/rttv 0 2000 0755
+vendor/bin/runcon 0 2000 0755 toybox_vendor
+vendor/bin/sed 0 2000 0755 toybox_vendor
+vendor/bin/sendevent 0 2000 0755 toybox_vendor
+vendor/bin/seq 0 2000 0755 toybox_vendor
+vendor/bin/setenforce 0 2000 0755 toybox_vendor
+vendor/bin/setprop 0 2000 0755 toybox_vendor
+vendor/bin/setsid 0 2000 0755 toybox_vendor
+vendor/bin/sh 0 2000 0755
+vendor/bin/sha1sum 0 2000 0755 toybox_vendor
+vendor/bin/sha224sum 0 2000 0755 toybox_vendor
+vendor/bin/sha256sum 0 2000 0755 toybox_vendor
+vendor/bin/sha384sum 0 2000 0755 toybox_vendor
+vendor/bin/sha512sum 0 2000 0755 toybox_vendor
+vendor/bin/sleep 0 2000 0755 toybox_vendor
+vendor/bin/slpd 0 2000 0755
+vendor/bin/sort 0 2000 0755 toybox_vendor
+vendor/bin/spir2cl 0 2000 0755
+vendor/bin/split 0 2000 0755 toybox_vendor
+vendor/bin/spm_loader 0 2000 0755
+vendor/bin/start 0 2000 0755 toybox_vendor
+vendor/bin/starter 0 2000 0755
+vendor/bin/stat 0 2000 0755 toybox_vendor
+vendor/bin/statusd 0 2000 0755
+vendor/bin/stop 0 2000 0755 toybox_vendor
+vendor/bin/stp_dump3 0 2000 0755
+vendor/bin/strings 0 2000 0755 toybox_vendor
+vendor/bin/stroke 0 2000 0755
+vendor/bin/swapoff 0 2000 0755 toybox_vendor
+vendor/bin/swapon 0 2000 0755 toybox_vendor
+vendor/bin/sync 0 2000 0755 toybox_vendor
+vendor/bin/sysctl 0 2000 0755 toybox_vendor
+vendor/bin/sysenv_daemon 0 2000 0755
+vendor/bin/tac 0 2000 0755 toybox_vendor
+vendor/bin/tail 0 2000 0755 toybox_vendor
+vendor/bin/tar 0 2000 0755 toybox_vendor
+vendor/bin/taskset 0 2000 0755 toybox_vendor
+vendor/bin/tee 0 2000 0755 toybox_vendor
+vendor/bin/thermal 0 2000 0755
+vendor/bin/thermal_manager 0 2000 0755
+vendor/bin/thermalloadalgod 0 2000 0755
+vendor/bin/time 0 2000 0755 toybox_vendor
+vendor/bin/timeout 0 2000 0755 toybox_vendor
+vendor/bin/top 0 2000 0755 toybox_vendor
+vendor/bin/touch 0 2000 0755 toybox_vendor
+vendor/bin/toybox_vendor 0 2000 0755
+vendor/bin/tr 0 2000 0755 toybox_vendor
+vendor/bin/true 0 2000 0755 toybox_vendor
+vendor/bin/truncate 0 2000 0755 toybox_vendor
+vendor/bin/tty 0 2000 0755 toybox_vendor
+vendor/bin/ulimit 0 2000 0755 toybox_vendor
+vendor/bin/umount 0 2000 0755 toybox_vendor
+vendor/bin/uname 0 2000 0755 toybox_vendor
+vendor/bin/uniq 0 2000 0755 toybox_vendor
+vendor/bin/unix2dos 0 2000 0755 toybox_vendor
+vendor/bin/uptime 0 2000 0755 toybox_vendor
+vendor/bin/usleep 0 2000 0755 toybox_vendor
+vendor/bin/uudecode 0 2000 0755 toybox_vendor
+vendor/bin/uuencode 0 2000 0755 toybox_vendor
+vendor/bin/viaradiooptions 0 2000 0755
+vendor/bin/viarild 0 2000 0755
+vendor/bin/vmstat 0 2000 0755 toybox_vendor
+vendor/bin/vndservice 0 2000 0755
+vendor/bin/vndservicemanager 0 2000 0755
+vendor/bin/volte_imcb 0 2000 0755
+vendor/bin/volte_stack 0 2000 0755
+vendor/bin/volte_ua 0 2000 0755
+vendor/bin/wc 0 2000 0755 toybox_vendor
+vendor/bin/wfca 0 2000 0755
+vendor/bin/which 0 2000 0755 toybox_vendor
+vendor/bin/whoami 0 2000 0755 toybox_vendor
+vendor/bin/wifi2agps 0 2000 0755
+vendor/bin/wmt_concurrency 0 2000 0755
+vendor/bin/wmt_launcher 0 2000 0755
+vendor/bin/wmt_loader 0 2000 0755
+vendor/bin/wmt_loopback 0 2000 0755
+vendor/bin/wpa_cli 0 2000 0755
+vendor/bin/xargs 0 2000 0755 toybox_vendor
+vendor/bin/xxd 0 2000 0755 toybox_vendor
+vendor/bin/yes 0 2000 0755 toybox_vendor
+vendor/build.prop 0 0 0600
+vendor/compatibility_matrix.xml 0 0 0644
+vendor/data 0 2000 0755
+vendor/data/misc 0 2000 0755
+vendor/data/misc/ProjectConfig.mk 0 0 0644
+vendor/default.prop 0 0 0600
+vendor/etc 0 2000 0755
+vendor/etc/.tp 0 2000 0755
+vendor/etc/.tp/.ht120.mtc 0 0 0644
+vendor/etc/.tp/.thermal_policy_00 0 0 0644
+vendor/etc/.tp/.thermal_policy_01 0 0 0644
+vendor/etc/.tp/.thermal_policy_02 0 0 0644
+vendor/etc/.tp/.thermal_policy_03 0 0 0644
+vendor/etc/.tp/thermal.conf 0 0 0644
+vendor/etc/.tp/thermal.off.conf 0 0 0644
+vendor/etc/DSM.xml 0 0 0644
+vendor/etc/DSM_config.xml 0 0 0644
+vendor/etc/NOTICE.xml.gz 0 0 0644
+vendor/etc/a2dp_audio_policy_configuration.xml 0 0 0644
+vendor/etc/aee-config 0 0 0644
+vendor/etc/agps_profiles_conf2.xml 0 0 0644
+vendor/etc/appwidget 0 2000 0755
+vendor/etc/appwidget/3dwidgets.xml 0 0 0644
+vendor/etc/audio_device.xml 0 0 0644
+vendor/etc/audio_em.xml 0 0 0644
+vendor/etc/audio_param 0 2000 0755
+vendor/etc/audio_param/AudioParamOptions.xml 0 0 0644
+vendor/etc/audio_param/BtInfo_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/BtInfo_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/HpImpedance_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/HpImpedance_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/PlaybackACF_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/PlaybackACF_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/PlaybackDRC_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/PlaybackDRC_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/PlaybackHCF_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/PlaybackHCF_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/PlaybackVolAna_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/PlaybackVolAna_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/PlaybackVolDigi_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/PlaybackVolDigi_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/PlaybackVolUI_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/PlaybackVolUI_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/Playback_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/Playback_ParamTreeView.xml 0 0 0644
+vendor/etc/audio_param/Playback_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/RecordDMNR_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/RecordDMNR_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/RecordFIR_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/RecordFIR_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/RecordUI_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/RecordUI_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/RecordVolUI_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/RecordVolUI_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/RecordVol_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/RecordVol_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/Record_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/Record_ParamTreeView.xml 0 0 0644
+vendor/etc/audio_param/Record_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/SpeechDMNR_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/SpeechEchoRef_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/SpeechEchoRef_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/SpeechGeneral_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/SpeechGeneral_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/SpeechMagiClarity_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/SpeechMagiClarity_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/SpeechNetwork_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/SpeechNetwork_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/SpeechUI_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/SpeechUI_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/SpeechVolUI_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/SpeechVol_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/SpeechVol_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/Speech_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/Speech_ParamTreeView.xml 0 0 0644
+vendor/etc/audio_param/Speech_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/USBCall_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/USBCall_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/USBDevice_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/USBDevice_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/VoIPDMNR_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/VoIPDMNR_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/VoIPGeneral_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/VoIPGeneral_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/VoIPUI_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/VoIPUI_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/VoIPVolUI_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/VoIPVol_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/VoIPVol_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/VoIP_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/VoIP_ParamTreeView.xml 0 0 0644
+vendor/etc/audio_param/VoIP_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/VoIPv2DMNR_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/VoIPv2DMNR_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/VoIPv2General_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/VoIPv2General_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/VoIPv2UI_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/VoIPv2UI_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/VoIPv2_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/VoIPv2_ParamTreeView.xml 0 0 0644
+vendor/etc/audio_param/VoIPv2_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/VolumeGainMapUL_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/VolumeGainMapUL_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/VolumeGainMap_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_param/Volume_AudioParam.xml 0 0 0644
+vendor/etc/audio_param/Volume_ParamUnitDesc.xml 0 0 0644
+vendor/etc/audio_policy.conf 0 0 0644
+vendor/etc/audio_policy_configuration.xml 0 0 0644
+vendor/etc/audio_policy_volumes.xml 0 0 0644
+vendor/etc/cdma_ecc_list.xml 0 0 0644
+vendor/etc/cdma_ecc_list_ss.xml 0 0 0644
+vendor/etc/default_volume_tables.xml 0 0 0644
+vendor/etc/disableapplist.txt 0 0 0644
+vendor/etc/ecc_list.xml 0 0 0644
+vendor/etc/emdlogger_usb_config.prop 0 0 0644
+vendor/etc/fstab.mt6797 0 0 0644
+vendor/etc/gallery 0 2000 0755
+vendor/etc/gallery/Gallery2Drm 0 2000 0755
+vendor/etc/gallery/Gallery2Drm/Gallery2Drm.apk 0 0 0644
+vendor/etc/gallery/Gallery2Gif 0 2000 0755
+vendor/etc/gallery/Gallery2Gif/Gallery2Gif.apk 0 0 0644
+vendor/etc/gallery/Gallery2Pq 0 2000 0755
+vendor/etc/gallery/Gallery2Pq/Gallery2Pq.apk 0 0 0644
+vendor/etc/gallery/Gallery2PqTool 0 2000 0755
+vendor/etc/gallery/Gallery2PqTool/Gallery2PqTool.apk 0 0 0644
+vendor/etc/gallery/Gallery2Raw 0 2000 0755
+vendor/etc/gallery/Gallery2Raw/Gallery2Raw.apk 0 0 0644
+vendor/etc/gallery/Gallery2Root 0 2000 0755
+vendor/etc/gallery/Gallery2Root/Gallery2Root.apk 0 0 0644
+vendor/etc/gallery/Gallery2StereoEntry 0 2000 0755
+vendor/etc/gallery/Gallery2StereoEntry/Gallery2StereoEntry.apk 0 0 0644
+vendor/etc/init 0 2000 0755
+vendor/etc/init/aee_aedv.rc 0 0 0644
+vendor/etc/init/aee_aedv64.rc 0 0 0644
+vendor/etc/init/android.hardware.audio@2.0-service-mediatek.rc 0 0 0644
+vendor/etc/init/android.hardware.configstore@1.0-service.rc 0 0 0644
+vendor/etc/init/android.hardware.drm@1.0-service.rc 0 0 0644
+vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc 0 0 0644
+vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc 0 0 0644
+vendor/etc/init/android.hardware.graphics.allocator@2.0-service.rc 0 0 0644
+vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc 0 0 0644
+vendor/etc/init/android.hardware.keymaster@3.0-service.rc 0 0 0644
+vendor/etc/init/android.hardware.light@2.0-service-mediatek.rc 0 0 0644
+vendor/etc/init/android.hardware.media.omx@1.0-service.rc 0 0 0644
+vendor/etc/init/android.hardware.memtrack@1.0-service.rc 0 0 0644
+vendor/etc/init/android.hardware.sensors@1.0-service-mediatek.rc 0 0 0644
+vendor/etc/init/android.hardware.thermal@1.0-service.rc 0 0 0644
+vendor/etc/init/android.hardware.vibrator@1.0-service.rc 0 0 0644
+vendor/etc/init/android.hardware.wifi@1.0-service.rc 0 0 0644
+vendor/etc/init/camerahalserver.rc 0 0 0644
+vendor/etc/init/fuelgauged_init.rc 0 0 0644
+vendor/etc/init/gsm0710muxd.rc 0 0 0644
+vendor/etc/init/hostapd.android.rc 0 0 0644
+vendor/etc/init/hw 0 2000 0755
+vendor/etc/init/hw/factory_init.connectivity.rc 0 0 0644
+vendor/etc/init/hw/factory_init.project.rc 0 0 0644
+vendor/etc/init/hw/init.aee.rc 0 0 0644
+vendor/etc/init/hw/init.connectivity.rc 0 0 0644
+vendor/etc/init/hw/init.modem.rc 0 0 0644
+vendor/etc/init/hw/init.mt6797.rc 0 0 0644
+vendor/etc/init/hw/init.mt6797.usb.rc 0 0 0644
+vendor/etc/init/hw/init.project.rc 0 0 0644
+vendor/etc/init/hw/init.sensor_1_0.rc 0 0 0644
+vendor/etc/init/hw/meta_init.connectivity.rc 0 0 0644
+vendor/etc/init/hw/meta_init.modem.rc 0 0 0644
+vendor/etc/init/hw/meta_init.project.rc 0 0 0644
+vendor/etc/init/hw/multi_init.rc 0 0 0644
+vendor/etc/init/init.cccifsd.rc 0 0 0644
+vendor/etc/init/init.cccimdinit.rc 0 0 0644
+vendor/etc/init/init.mal.rc 0 0 0644
+vendor/etc/init/init.md_apps.rc 0 0 0644
+vendor/etc/init/init.thermal.rc 0 0 0644
+vendor/etc/init/init.thermal_manager.rc 0 0 0644
+vendor/etc/init/init.thermalloadalgod.rc 0 0 0644
+vendor/etc/init/init.viarild.rc 0 0 0644
+vendor/etc/init/init.volte_imcb.rc 0 0 0644
+vendor/etc/init/init.volte_stack.rc 0 0 0644
+vendor/etc/init/init.volte_ua.rc 0 0 0644
+vendor/etc/init/init.vtservice.rc 0 0 0644
+vendor/etc/init/init.wfca.rc 0 0 0644
+vendor/etc/init/init.wod.rc 0 0 0644
+vendor/etc/init/init_connectivity.rc 0 0 0644
+vendor/etc/init/ipsec_mon.rc 0 0 0644
+vendor/etc/init/lbs_hidl_service.rc 0 0 0644
+vendor/etc/init/md_ctrl.rc 0 0 0644
+vendor/etc/init/mtk_agpsd.rc 0 0 0644
+vendor/etc/init/muxreport.rc 0 0 0644
+vendor/etc/init/nvram_agent_binder.rc 0 0 0644
+vendor/etc/init/nvram_daemon.rc 0 0 0644
+vendor/etc/init/rild.rc 0 0 0644
+vendor/etc/init/rilproxy.rc 0 0 0644
+vendor/etc/init/slpd.rc 0 0 0644
+vendor/etc/init/spm_script.rc 0 0 0644
+vendor/etc/init/statusd.rc 0 0 0644
+vendor/etc/init/sysenv_daemon.rc 0 0 0644
+vendor/etc/init/vendor.mediatek.hardware.bluetooth@1.1-service.rc 0 0 0644
+vendor/etc/init/vendor.mediatek.hardware.gnss@1.1-service.rc 0 0 0644
+vendor/etc/init/vendor.mediatek.hardware.imsa@1.0-service.rc 0 0 0644
+vendor/etc/init/vendor.mediatek.hardware.mtkcodecservice@1.1-service.rc 0 0 0644
+vendor/etc/init/vendor.mediatek.hardware.power@1.1-service.rc 0 0 0644
+vendor/etc/init/vendor.mediatek.hardware.pq@2.0-service.rc 0 0 0644
+vendor/etc/init/vendor.mediatek.hardware.wfo@1.0-service.rc 0 0 0644
+vendor/etc/init/vndservicemanager.rc 0 0 0644
+vendor/etc/init/wifi2agps.rc 0 0 0644
+vendor/etc/ipsec 0 2000 0755
+vendor/etc/ipsec/ipsec.conf 0 0 0644
+vendor/etc/ipsec/ipsec.d 0 2000 0755
+vendor/etc/ipsec/ipsec.d/cacerts 0 2000 0755
+vendor/etc/ipsec/ipsec.d/cacerts/Entrust.net_Certification_Authority_2048.cer 0 0 0644
+vendor/etc/ipsec/ipsec.d/cacerts/GeoTrust_PCA_G3_Root.der 0 0 0644
+vendor/etc/ipsec/ipsec.d/cacerts/GeoTrust_Primary_CA.der 0 0 0644
+vendor/etc/ipsec/ipsec.d/cacerts/GeoTrust_Primary_CA_G2_ECC.der 0 0 0644
+vendor/etc/ipsec/ipsec.d/cacerts/Root_CA_1003.crt 0 0 0644
+vendor/etc/ipsec/ipsec.d/cacerts/VeriSignClass3G4.der 0 0 0644
+vendor/etc/ipsec/ipsec.d/cacerts/VeriSignClass3G5.der 0 0 0644
+vendor/etc/ipsec/ipsec.d/cacerts/VeriSignUniversalRootCertification.der 0 0 0644
+vendor/etc/ipsec/ipsec.d/cacerts/thawte.der 0 0 0644
+vendor/etc/ipsec/ssl 0 2000 0755
+vendor/etc/ipsec/ssl/openssl.cnf 0 0 0644
+vendor/etc/ipsec/strongswan.conf 0 0 0644
+vendor/etc/ipsec/wod_cust.conf 0 0 0644
+vendor/etc/ipsec/wod_optr.conf 0 0 0644
+vendor/etc/mddb 0 2000 0755
+vendor/etc/mddb/DbgInfo_LR11.W1630.MD.MP_TK_MD_BASIC_MOLY_LR11_W1630_MD_MP_V67_2_2019_09_19_14_35_1_ulwctg_n 0 0 0644
+vendor/etc/mddb/MDDB.C2K.META_MT6797_S00_SIXTH_CBP_MD_MP5_V72_2_3_3g_n.EDB 0 0 0644
+vendor/etc/mddb/MDDB.META.ODB_MT6797_S00_MOLY_LR11_W1630_MD_MP_V67_2_1_ulwctg_n.XML.GZ 0 0 0644
+vendor/etc/mddb/MDDB.META_MT6797_S00_MOLY_LR11_W1630_MD_MP_V67_2_1_ulwctg_n.EDB 0 0 0644
+vendor/etc/mddb/MDDB_InfoCustomAppSrcP_MT6797_S00_MOLY_LR11_W1630_MD_MP_V67_2_1_ulwctg_n.EDB 0 0 0644
+vendor/etc/mddb/mdm_layout_desc_1_ulwctg_n.dat 0 0 0644
+vendor/etc/media_codecs.xml 0 0 0644
+vendor/etc/media_codecs_google_audio.xml 0 0 0644
+vendor/etc/media_codecs_google_video_le.xml 0 0 0644
+vendor/etc/media_codecs_mediatek_audio.xml 0 0 0644
+vendor/etc/media_codecs_mediatek_video.xml 0 0 0644
+vendor/etc/media_codecs_performance.xml 0 0 0644
+vendor/etc/media_profiles.xml 0 0 0644
+vendor/etc/mkshrc 0 0 0644
+vendor/etc/mtk_omx_core.cfg 0 0 0644
+vendor/etc/partition_permission.sh 0 0 0644
+vendor/etc/permissions 0 2000 0755
+vendor/etc/permissions/android.hardware.audio.low_latency.xml 0 0 0644
+vendor/etc/permissions/android.hardware.bluetooth.xml 0 0 0644
+vendor/etc/permissions/android.hardware.bluetooth_le.xml 0 0 0644
+vendor/etc/permissions/android.hardware.camera.xml 0 0 0644
+vendor/etc/permissions/android.hardware.faketouch.xml 0 0 0644
+vendor/etc/permissions/android.hardware.location.gps.xml 0 0 0644
+vendor/etc/permissions/android.hardware.microphone.xml 0 0 0644
+vendor/etc/permissions/android.hardware.opengles.aep.xml 0 0 0644
+vendor/etc/permissions/android.hardware.sensor.accelerometer.xml 0 0 0644
+vendor/etc/permissions/android.hardware.telephony.cdma.xml 0 0 0644
+vendor/etc/permissions/android.hardware.telephony.gsm.xml 0 0 0644
+vendor/etc/permissions/android.hardware.touchscreen.multitouch.distinct.xml 0 0 0644
+vendor/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml 0 0 0644
+vendor/etc/permissions/android.hardware.touchscreen.multitouch.xml 0 0 0644
+vendor/etc/permissions/android.hardware.touchscreen.xml 0 0 0644
+vendor/etc/permissions/android.hardware.usb.accessory.xml 0 0 0644
+vendor/etc/permissions/android.hardware.usb.host.xml 0 0 0644
+vendor/etc/permissions/android.hardware.vulkan.level.xml 0 0 0644
+vendor/etc/permissions/android.hardware.vulkan.version.xml 0 0 0644
+vendor/etc/permissions/android.hardware.wifi.direct.xml 0 0 0644
+vendor/etc/permissions/android.hardware.wifi.xml 0 0 0644
+vendor/etc/permissions/android.software.device_admin.xml 0 0 0644
+vendor/etc/permissions/android.software.live_wallpaper.xml 0 0 0644
+vendor/etc/permissions/android.software.managed_users.xml 0 0 0644
+vendor/etc/permissions/android.software.midi.xml 0 0 0644
+vendor/etc/permissions/handheld_core_hardware.xml 0 0 0644
+vendor/etc/permissions/pms_sysapp_removable_vendor_list.txt 0 0 0644
+vendor/etc/power_whitelist_cfg.xml 0 0 0644
+vendor/etc/powercontable.cfg 0 0 0644
+vendor/etc/powerscntbl.cfg 0 0 0644
+vendor/etc/r_submix_audio_policy_configuration.xml 0 0 0644
+vendor/etc/resmonwhitelist.txt 0 0 0644
+vendor/etc/seccomp_policy 0 2000 0755
+vendor/etc/seccomp_policy/mediacodec.policy 0 0 0644
+vendor/etc/seccomp_policy/mediaextractor.policy 0 0 0644
+vendor/etc/security 0 2000 0755
+vendor/etc/security/cacerts_supl 0 2000 0755
+vendor/etc/security/cacerts_supl/594f1775.0 0 0 0644
+vendor/etc/security/cacerts_supl/7651b327.0 0 0 0644
+vendor/etc/security/cacerts_supl/848ea856.0 0 0 0644
+vendor/etc/security/cacerts_supl/c542733d.0 0 0 0644
+vendor/etc/security/cacerts_supl/f336e3d1.0 0 0 0644
+vendor/etc/selinux 0 2000 0755
+vendor/etc/selinux/nonplat_file_contexts 0 0 0644
+vendor/etc/selinux/nonplat_hwservice_contexts 0 0 0644
+vendor/etc/selinux/nonplat_mac_permissions.xml 0 0 0644
+vendor/etc/selinux/nonplat_property_contexts 0 0 0644
+vendor/etc/selinux/nonplat_seapp_contexts 0 0 0644
+vendor/etc/selinux/nonplat_sepolicy.cil 0 0 0644
+vendor/etc/selinux/nonplat_service_contexts 0 0 0644
+vendor/etc/selinux/plat_sepolicy_vers.txt 0 0 0644
+vendor/etc/selinux/precompiled_sepolicy 0 0 0644
+vendor/etc/selinux/precompiled_sepolicy.plat_and_mapping.sha256 0 0 0644
+vendor/etc/selinux/vndservice_contexts 0 0 0644
+vendor/etc/slp_conf 0 0 0644
+vendor/etc/smsdbvisitor.xml 0 0 0644
+vendor/etc/special_pws_channel.xml 0 0 0644
+vendor/etc/throttle.sh 0 0 0644
+vendor/etc/usb_audio_policy_configuration.xml 0 0 0644
+vendor/etc/virtual-spn-conf-by-efgid1.xml 0 0 0644
+vendor/etc/virtual-spn-conf-by-efpnn.xml 0 0 0644
+vendor/etc/virtual-spn-conf-by-efspn.xml 0 0 0644
+vendor/etc/virtual-spn-conf-by-imsi.xml 0 0 0644
+vendor/etc/voicecommand 0 2000 0755
+vendor/etc/voicecommand/training 0 2000 0755
+vendor/etc/voicecommand/training/ubmfile 0 2000 0755
+vendor/etc/voicecommand/training/ubmfile/1.pcm 0 0 0644
+vendor/etc/voicecommand/training/ubmfile/128.dat 0 0 0644
+vendor/etc/voicecommand/training/ubmfile/2.pcm 0 0 0644
+vendor/etc/voicecommand/training/ubmfile/3.pcm 0 0 0644
+vendor/etc/voicecommand/training/ubmfile/4.pcm 0 0 0644
+vendor/etc/voicecommand/training/ubmfile/64.dat 0 0 0644
+vendor/etc/voicecommand/training/ubmfile/antiCmds 0 2000 0755
+vendor/etc/voicecommand/training/ubmfile/antiCmds/Model1.bin 0 0 0644
+vendor/etc/voicecommand/training/ubmfile/antiCmds/Model4.bin 0 0 0644
+vendor/etc/voicecommand/training/ubmfile/antiCmds/c_e_dic.bin.f 0 0 0644
+vendor/etc/voicecommand/training/ubmfile/antiCmds/c_e_dic.bin.gen 0 0 0644
+vendor/etc/voicecommand/training/ubmfile/antiCmds/c_e_dic.bin.l 0 0 0644
+vendor/etc/voicecommand/training/ubmfile/antiCmds/c_e_dic.bin.p 0 0 0644
+vendor/etc/voicecommand/training/ubmfile/antiCmds/c_e_dic.bin.t 0 0 0644
+vendor/etc/voicecommand/training/ubmfile/antiCmds/commandfilr3.dic 0 0 0644
+vendor/etc/voicecommand/training/ubmfile/nl 0 0 0644
+vendor/etc/voicecommand/training/ubmfile/ubmModel0.bin 0 0 0644
+vendor/etc/voicecommand/training/ubmfile/ubmModel1.bin 0 0 0644
+vendor/etc/voicecommand/training/ubmfile/ubmModel10.bin 0 0 0644
+vendor/etc/voicecommand/training/ubmfile/ubmModel2.bin 0 0 0644
+vendor/etc/voicecommand/training/ubmfile/ubmModel3.bin 0 0 0644
+vendor/etc/voicecommand/training/ubmfile/ubmModel4.bin 0 0 0644
+vendor/etc/wifi 0 2000 0755
+vendor/etc/wifi/p2p_supplicant_overlay.conf 0 0 0644
+vendor/etc/wifi/wpa_supplicant.conf 0 0 0644
+vendor/etc/wifi/wpa_supplicant_overlay.conf 0 0 0644
+vendor/firmware 0 2000 0755
+vendor/firmware/ROMv3_patch_1_0_hdr.bin 0 0 0644
+vendor/firmware/ROMv3_patch_1_1_hdr.bin 0 0 0644
+vendor/firmware/WIFI_RAM_CODE_6797 0 0 0644
+vendor/firmware/WMT_SOC.cfg 0 0 0644
+vendor/firmware/catcher_filter_1_ulwctg_n.bin 0 0 0644
+vendor/firmware/catcher_filter_3_3g_n.bin 0 0 0644
+vendor/firmware/customfilter 0 2000 0755
+vendor/firmware/customfilter/catcher_filter_1_ulwctg_n_C2KOnly_Test.bin 0 0 0644
+vendor/firmware/customfilter/catcher_filter_1_ulwctg_n_Default_Embms.bin 0 0 0644
+vendor/firmware/customfilter/catcher_filter_1_ulwctg_n_Default_IPAllOff.bin 0 0 0644
+vendor/firmware/customfilter/catcher_filter_1_ulwctg_n_FullLog.bin 0 0 0644
+vendor/firmware/customfilter/catcher_filter_1_ulwctg_n_SlimLog_DspAllOff.bin 0 0 0644
+vendor/firmware/customfilter/catcher_filter_1_ulwctg_n__Default.bin 0 0 0644
+vendor/firmware/customfilter/catcher_filter_1_ulwctg_n_meta.bin 0 0 0644
+vendor/firmware/em_filter_1_ulwctg_n.bin 0 0 0644
+vendor/firmware/fm_cust.cfg 0 0 0644
+vendor/firmware/modem_3_3g_n.img 0 0 0644
+vendor/firmware/mt6631_fm_v1_coeff.bin 0 0 0644
+vendor/firmware/mt6631_fm_v1_patch.bin 0 0 0644
+vendor/firmware/pcm_deepidle.bin 0 0 0644
+vendor/firmware/pcm_deepidle_by_mp1.bin 0 0 0644
+vendor/firmware/pcm_sodi.bin 0 0 0644
+vendor/firmware/pcm_sodi_by_mp1.bin 0 0 0644
+vendor/firmware/pcm_suspend.bin 0 0 0644
+vendor/firmware/pcm_suspend_by_mp1.bin 0 0 0644
+vendor/firmware/pcm_vcorefs_hpm.bin 0 0 0644
+vendor/firmware/pcm_vcorefs_lpm.bin 0 0 0644
+vendor/firmware/pcm_vcorefs_ultra.bin 0 0 0644
+vendor/framework 0 2000 0755
+vendor/framework/via-plugin.jar 0 0 0644
+vendor/lib 0 2000 0755
+vendor/lib/egl 0 2000 0755
+vendor/lib/egl/egl.cfg 0 0 0644
+vendor/lib/egl/libGLES_mali.so 0 0 0644
+vendor/lib/hw 0 2000 0755
+vendor/lib/hw/android.hardware.audio.effect@2.0-impl.so 0 0 0644
+vendor/lib/hw/android.hardware.audio@2.0-impl-mediatek.so 0 0 0644
+vendor/lib/hw/android.hardware.broadcastradio@1.0-impl.so 0 0 0644
+vendor/lib/hw/android.hardware.camera.provider@2.4-impl-mediatek.so 0 0 0644
+vendor/lib/hw/android.hardware.drm@1.0-impl.so 0 0 0644
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so 0 0 0644
+vendor/lib/hw/android.hardware.graphics.allocator@2.0-impl.so 0 0 0644
+vendor/lib/hw/android.hardware.graphics.composer@2.1-impl.so 0 0 0644
+vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so 0 0 0644
+vendor/lib/hw/android.hardware.keymaster@3.0-impl.so 0 0 0644
+vendor/lib/hw/android.hardware.light@2.0-impl-mediatek.so 0 0 0644
+vendor/lib/hw/android.hardware.memtrack@1.0-impl.so 0 0 0644
+vendor/lib/hw/android.hardware.renderscript@1.0-impl.so 0 0 0644
+vendor/lib/hw/android.hardware.sensors@1.0-impl-mediatek.so 0 0 0644
+vendor/lib/hw/android.hardware.soundtrigger@2.0-impl.so 0 0 0644
+vendor/lib/hw/android.hardware.thermal@1.0-impl.so 0 0 0644
+vendor/lib/hw/android.hardware.vibrator@1.0-impl.so 0 0 0644
+vendor/lib/hw/audio.primary.default.so 0 0 0644
+vendor/lib/hw/audio.primary.mt6797.so 0 0 0644
+vendor/lib/hw/audio.r_submix.default.so 0 0 0644
+vendor/lib/hw/audio.r_submix.mt6797.so 0 0 0644
+vendor/lib/hw/audio.usb.default.so 0 0 0644
+vendor/lib/hw/audio.usb.mt6797.so 0 0 0644
+vendor/lib/hw/audio_policy.stub.so 0 0 0644
+vendor/lib/hw/flp.mt6797.so 0 0 0644
+vendor/lib/hw/gatekeeper.default.so 0 0 0644 libSoftGatekeeper.so
+vendor/lib/hw/gps.mt6797.so 0 0 0644
+vendor/lib/hw/gralloc.default.so 0 0 0644
+vendor/lib/hw/gralloc.mt6797.so 0 0 0644
+vendor/lib/hw/hwcomposer.mt6797.so 0 0 0644
+vendor/lib/hw/libSoftGatekeeper.so 0 0 0644
+vendor/lib/hw/lights.mt6797.so 0 0 0644
+vendor/lib/hw/local_time.default.so 0 0 0644
+vendor/lib/hw/memtrack.mt6797.so 0 0 0644
+vendor/lib/hw/power.default.so 0 0 0644
+vendor/lib/hw/power.mt6797.so 0 0 0644
+vendor/lib/hw/sensors.mt6797.so 0 0 0644
+vendor/lib/hw/sound_trigger.primary.mt6797.so 0 0 0644
+vendor/lib/hw/thermal.mt6797.so 0 0 0644
+vendor/lib/hw/vendor.mediatek.hardware.bluetooth@1.1-impl.so 0 0 0644
+vendor/lib/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so 0 0 0644
+vendor/lib/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so 0 0 0644
+vendor/lib/hw/vendor.mediatek.hardware.gnss@1.1-impl.so 0 0 0644
+vendor/lib/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so 0 0 0644
+vendor/lib/hw/vendor.mediatek.hardware.nvram@1.0-impl.so 0 0 0644
+vendor/lib/hw/vendor.mediatek.hardware.power@1.1-impl.so 0 0 0644
+vendor/lib/hw/vendor.mediatek.hardware.pq@2.0-impl.so 0 0 0644
+vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so 0 0 0644
+vendor/lib/hw/vibrator.default.so 0 0 0644
+vendor/lib/hw/vulkan.mt6797.so 0 0 0644 /vendor/lib/egl/libGLES_mali.so
+vendor/lib/lib3a.log.so 0 0 0644
+vendor/lib/lib3a.so 0 0 0644
+vendor/lib/lib3a_sample.so 0 0 0644
+vendor/lib/libBnMtkCodec.so 0 0 0644
+vendor/lib/libClearMotionFW.so 0 0 0644
+vendor/lib/libDR.so 0 0 0644
+vendor/lib/libHEVCdec_sa.ca7.android.so 0 0 0644
+vendor/lib/libJpgDecPipe.so 0 0 0644
+vendor/lib/libJpgEncPipe.so 0 0 0644
+vendor/lib/libMtkOmxAdpcmDec.so 0 0 0644
+vendor/lib/libMtkOmxAdpcmEnc.so 0 0 0644
+vendor/lib/libMtkOmxAlacDec.so 0 0 0644
+vendor/lib/libMtkOmxApeDec.so 0 0 0644
+vendor/lib/libMtkOmxCore.so 0 0 0644
+vendor/lib/libMtkOmxG711Dec.so 0 0 0644
+vendor/lib/libMtkOmxGsmDec.so 0 0 0644
+vendor/lib/libMtkOmxMp3Dec.so 0 0 0644
+vendor/lib/libMtkOmxRawDec.so 0 0 0644
+vendor/lib/libMtkOmxVdecEx.so 0 0 0644
+vendor/lib/libMtkOmxVenc.so 0 0 0644
+vendor/lib/libMtkOmxVorbisEnc.so 0 0 0644
+vendor/lib/libOpenCL.so 0 0 0644
+vendor/lib/libPQDCjni.so 0 0 0644
+vendor/lib/libPQjni.so 0 0 0644
+vendor/lib/libRSDriver_mtk.so 0 0 0644
+vendor/lib/libSonyIMX230PdafLibrary.so 0 0 0644
+vendor/lib/libSwJpgCodec.so 0 0 0644
+vendor/lib/libabfadp.so 0 0 0644
+vendor/lib/libacdk.so 0 0 0644
+vendor/lib/libaedv.so 0 0 0644
+vendor/lib/libakl.so 0 0 0644
+vendor/lib/libalsautils.so 0 0 0644
+vendor/lib/libaudio_param_parser-vnd.so 0 0 0644
+vendor/lib/libaudiocompensationfilter.so 0 0 0644
+vendor/lib/libaudiocomponentengine.so 0 0 0644
+vendor/lib/libaudiocustparam.so 0 0 0644
+vendor/lib/libaudiodcrflt.so 0 0 0644
+vendor/lib/libaudioprimarydevicehalifclient.so 0 0 0644
+vendor/lib/libaudiosetting.so 0 0 0644
+vendor/lib/libaudiotoolkit.so 0 0 0644
+vendor/lib/libbessound_hd_mtk.so 0 0 0644
+vendor/lib/libblisrc.so 0 0 0644
+vendor/lib/libblisrc32.so 0 0 0644
+vendor/lib/libbluetooth_hw_test.so 0 0 0644
+vendor/lib/libbluetooth_mtk.so 0 0 0644
+vendor/lib/libbluetooth_mtk_pure.so 0 0 0644
+vendor/lib/libbluetooth_relayer.so 0 0 0644
+vendor/lib/libbluetoothem_mtk.so 0 0 0644
+vendor/lib/libbt-vendor.so 0 0 0644
+vendor/lib/libbwc.so 0 0 0644
+vendor/lib/libc2kril.so 0 0 0644
+vendor/lib/libc2kutils.so 0 0 0644
+vendor/lib/libcam.camadapter.so 0 0 0644
+vendor/lib/libcam.camshot.so 0 0 0644
+vendor/lib/libcam.client.so 0 0 0644
+vendor/lib/libcam.feature_utils.so 0 0 0644
+vendor/lib/libcam.featureio.pipe.panorama.so 0 0 0644
+vendor/lib/libcam.hal3a.v3.dng.so 0 0 0644
+vendor/lib/libcam.hal3a.v3.lsctbl.so 0 0 0644
+vendor/lib/libcam.hal3a.v3.nvram.so 0 0 0644
+vendor/lib/libcam.hal3a.v3.so 0 0 0644
+vendor/lib/libcam.halsensor.so 0 0 0644
+vendor/lib/libcam.iopipe.so 0 0 0644
+vendor/lib/libcam.jni.lomohaljni.so 0 0 0644
+vendor/lib/libcam.lcs.so 0 0 0644
+vendor/lib/libcam.legacypipeline.so 0 0 0644
+vendor/lib/libcam.paramsmgr.so 0 0 0644
+vendor/lib/libcam.utils.sensorprovider.so 0 0 0644
+vendor/lib/libcam.vhdr.so 0 0 0644
+vendor/lib/libcam1_utils.so 0 0 0644
+vendor/lib/libcam3_hwpipeline.so 0 0 0644
+vendor/lib/libcam3a_imem.so 0 0 0644
+vendor/lib/libcam_extension.so 0 0 0644
+vendor/lib/libcam_platform.so 0 0 0644
+vendor/lib/libcamalgo.asd.so 0 0 0644
+vendor/lib/libcamalgo.autorama.so 0 0 0644
+vendor/lib/libcamalgo.dngop.so 0 0 0644
+vendor/lib/libcamalgo.eis.so 0 0 0644
+vendor/lib/libcamalgo.fdft.so 0 0 0644
+vendor/lib/libcamalgo.hdr.so 0 0 0644
+vendor/lib/libcamalgo.so 0 0 0644
+vendor/lib/libcamalgo.utility.so 0 0 0644
+vendor/lib/libcamalgo.warp.so 0 0 0644
+vendor/lib/libcamdrv_imem.so 0 0 0644
+vendor/lib/libcamdrv_isp.so 0 0 0644
+vendor/lib/libcamdrv_tuning_mgr.so 0 0 0644
+vendor/lib/libcamdrv_twin.so 0 0 0644
+vendor/lib/libcameracustom.so 0 0 0644
+vendor/lib/libccap.so 0 0 0644
+vendor/lib/libccci_util.so 0 0 0644
+vendor/lib/libcharon-ss.so 0 0 0644
+vendor/lib/libcrypto-ss.so 0 0 0644
+vendor/lib/libcurl-ss.so 0 0 0644
+vendor/lib/libcustom_nvram.so 0 0 0644
+vendor/lib/libcvsd_mtk.so 0 0 0644
+vendor/lib/libdirect-coredump.so 0 0 0644
+vendor/lib/libdpframework.so 0 0 0644
+vendor/lib/libeffecthal.base.so 0 0 0644
+vendor/lib/libeffects.so 0 0 0644
+vendor/lib/libfeature.face.so 0 0 0644
+vendor/lib/libfeature_3dnr.so 0 0 0644
+vendor/lib/libfeature_eis.so 0 0 0644
+vendor/lib/libfgauge.so 0 0 0644
+vendor/lib/libfile_op.so 0 0 0644
+vendor/lib/libfmcust.so 0 0 0644
+vendor/lib/libged.so 0 0 0644
+vendor/lib/libgeofence.so 0 0 0644
+vendor/lib/libgpu_aux.so 0 0 0644
+vendor/lib/libgralloc_extra.so 0 0 0644
+vendor/lib/libh264enc_sa.ca7.so 0 0 0644
+vendor/lib/libh264enc_sb.ca7.so 0 0 0644
+vendor/lib/libhdrproc.so 0 0 0644
+vendor/lib/libhwc2on1adapter.so 0 0 0644
+vendor/lib/libhwm.so 0 0 0644
+vendor/lib/libhydra.so 0 0 0644
+vendor/lib/libifcutils_mtk.so 0 0 0644
+vendor/lib/libimageio.so 0 0 0644
+vendor/lib/libimageio_plat_drv.so 0 0 0644
+vendor/lib/libimageio_plat_pipe.so 0 0 0644
+vendor/lib/libion_mtk.so 0 0 0644
+vendor/lib/libion_ulit.so 0 0 0644
+vendor/lib/libipsec_ims_shr.so 0 0 0644
+vendor/lib/libm4u.so 0 0 0644
+vendor/lib/libmal.so 0 0 0644
+vendor/lib/libmal_datamngr.so 0 0 0644
+vendor/lib/libmal_epdga.so 0 0 0644
+vendor/lib/libmal_imsmngr.so 0 0 0644
+vendor/lib/libmal_mdmngr.so 0 0 0644
+vendor/lib/libmal_nwmngr.so 0 0 0644
+vendor/lib/libmal_rds.so 0 0 0644
+vendor/lib/libmal_rilproxy.so 0 0 0644
+vendor/lib/libmal_simmngr.so 0 0 0644
+vendor/lib/libmdfx.so 0 0 0644
+vendor/lib/libmfllcore.so 0 0 0644
+vendor/lib/libmhalImageCodec.so 0 0 0644
+vendor/lib/libmjc.so 0 0 0644
+vendor/lib/libmjcFakeEngine.so 0 0 0644
+vendor/lib/libmmprofile.so 0 0 0644
+vendor/lib/libmnl.so 0 0 0644
+vendor/lib/libmp4enc_sa.ca7.so 0 0 0644
+vendor/lib/libmp4enc_xa.ca7.so 0 0 0644
+vendor/lib/libmrdumpv.so 0 0 0644
+vendor/lib/libmsbc_mtk.so 0 0 0644
+vendor/lib/libmtcloader.so 0 0 0644
+vendor/lib/libmtk_drvb.so 0 0 0644
+vendor/lib/libmtkaudio_utils.so 0 0 0644
+vendor/lib/libmtkcam.adv_setting.so 0 0 0644
+vendor/lib/libmtkcam.featurepipe.streaming.so 0 0 0644
+vendor/lib/libmtkcam_cct.so 0 0 0644
+vendor/lib/libmtkcam_debugutils.so 0 0 0644
+vendor/lib/libmtkcam_device1.so 0 0 0644
+vendor/lib/libmtkcam_device3.so 0 0 0644
+vendor/lib/libmtkcam_device3_app.so 0 0 0644
+vendor/lib/libmtkcam_exif.so 0 0 0644
+vendor/lib/libmtkcam_fdvt.so 0 0 0644
+vendor/lib/libmtkcam_fwkutils.so 0 0 0644
+vendor/lib/libmtkcam_grallocutils.so 0 0 0644
+vendor/lib/libmtkcam_hwnode.so 0 0 0644
+vendor/lib/libmtkcam_hwutils.so 0 0 0644
+vendor/lib/libmtkcam_imgbuf.so 0 0 0644
+vendor/lib/libmtkcam_metadata.so 0 0 0644
+vendor/lib/libmtkcam_metastore.so 0 0 0644
+vendor/lib/libmtkcam_modulefactory_aaa.so 0 0 0644
+vendor/lib/libmtkcam_modulefactory_custom.so 0 0 0644
+vendor/lib/libmtkcam_modulefactory_drv.so 0 0 0644
+vendor/lib/libmtkcam_modulefactory_feature.so 0 0 0644
+vendor/lib/libmtkcam_modulehelper.so 0 0 0644
+vendor/lib/libmtkcam_pipeline.so 0 0 0644
+vendor/lib/libmtkcam_rsc.so 0 0 0644
+vendor/lib/libmtkcam_stdutils.so 0 0 0644
+vendor/lib/libmtkcam_streamutils.so 0 0 0644
+vendor/lib/libmtkcam_sysutils.so 0 0 0644
+vendor/lib/libmtkjpeg.so 0 0 0644
+vendor/lib/libmtklimiter.so 0 0 0644
+vendor/lib/libmtkshifter.so 0 0 0644
+vendor/lib/libnativecheck-jni.so 0 0 0644
+vendor/lib/libnvram.so 0 0 0644
+vendor/lib/libnvram_daemon_callback.so 0 0 0644
+vendor/lib/libnvram_platform.so 0 0 0644
+vendor/lib/libnvram_sec.so 0 0 0644
+vendor/lib/libnvramagentclient.so 0 0 0644
+vendor/lib/libperfctl.so 0 0 0644
+vendor/lib/libperfservice.so 0 0 0644
+vendor/lib/libperfservicenative.so 0 0 0644
+vendor/lib/libpowerhalwrap.so 0 0 0644
+vendor/lib/libpq_cust.so 0 0 0644
+vendor/lib/libpq_cust_base.so 0 0 0644
+vendor/lib/libpq_prot.so 0 0 0644
+vendor/lib/libratconfig.so 0 0 0644
+vendor/lib/libril.so 0 0 0644
+vendor/lib/librilmtk.so 0 0 0644
+vendor/lib/librilproxy.so 0 0 0644
+vendor/lib/librilproxyutils.so 0 0 0644
+vendor/lib/librilutilsmtk.so 0 0 0644
+vendor/lib/librpc.so 0 0 0644
+vendor/lib/librpcril.so 0 0 0644
+vendor/lib/librrc.so 0 0 0644
+vendor/lib/libsensorndkbridge.so 0 0 0644
+vendor/lib/libsimaka.so 0 0 0644
+vendor/lib/libspeech_enh_lib.so 0 0 0644
+vendor/lib/libssl-ss.so 0 0 0644
+vendor/lib/libstagefrighthw.so 0 0 0644
+vendor/lib/libstorage_otp.so 0 0 0644
+vendor/lib/libstrongswan.so 0 0 0644
+vendor/lib/libsysenv.so 0 0 0644
+vendor/lib/libthermalalgo.so 0 0 0644
+vendor/lib/libtinycompress.so 0 0 0644
+vendor/lib/libtinyxml.so 0 0 0644
+vendor/lib/libudf.so 0 0 0644
+vendor/lib/libui_ext.so 0 0 0644
+vendor/lib/libvc1dec_sa.ca7.so 0 0 0644
+vendor/lib/libvcodec_cap.so 0 0 0644
+vendor/lib/libvcodec_oal.so 0 0 0644
+vendor/lib/libvcodec_utility.so 0 0 0644
+vendor/lib/libvcodecdrv.so 0 0 0644
+vendor/lib/libverno.so 0 0 0644
+vendor/lib/libviagpsrpc.so 0 0 0644
+vendor/lib/libviatelecom-withuim-ril.so 0 0 0644
+vendor/lib/libvolte_core_shr.so 0 0 0644
+vendor/lib/libvolte_xdmc_shr.so 0 0 0644
+vendor/lib/libvp8dec_sa.ca7.so 0 0 0644
+vendor/lib/libvp8enc_sa.ca7.so 0 0 0644
+vendor/lib/libvp9dec_sa.ca7.so 0 0 0644
+vendor/lib/libvt_custom.so 0 0 0644
+vendor/lib/libwo.so 0 0 0644
+vendor/lib/libwpa_client.so 0 0 0644
+vendor/lib/libwvhidl.so 0 0 0644
+vendor/lib/mediadrm 0 2000 0755
+vendor/lib/mediadrm/libdrmclearkeyplugin.so 0 0 0644
+vendor/lib/mediadrm/libmockdrmcryptoplugin.so 0 0 0644
+vendor/lib/mediadrm/libwvdrmengine.so 0 0 0644
+vendor/lib/mtk-ril.so 0 0 0644
+vendor/lib/mtk-rilproxy.so 0 0 0644
+vendor/lib/soundfx 0 2000 0755
+vendor/lib/soundfx/libaudiopreprocessing.so 0 0 0644
+vendor/lib/soundfx/libbundlewrapper.so 0 0 0644
+vendor/lib/soundfx/libdownmix.so 0 0 0644
+vendor/lib/soundfx/libeffectproxy.so 0 0 0644
+vendor/lib/soundfx/libldnhncr.so 0 0 0644
+vendor/lib/soundfx/libreverbwrapper.so 0 0 0644
+vendor/lib/soundfx/libvisualizer.so 0 0 0644
+vendor/lib/vendor.mediatek.hardware.audio@2.1_vendor.so 0 0 0644
+vendor/lib/vendor.mediatek.hardware.bluetooth@1.1_vendor.so 0 0 0644
+vendor/lib/vendor.mediatek.hardware.camera.ccap@1.0_vendor.so 0 0 0644
+vendor/lib/vendor.mediatek.hardware.camera.device@1.1_vendor.so 0 0 0644
+vendor/lib/vendor.mediatek.hardware.camera.lomoeffect@1.0_vendor.so 0 0 0644
+vendor/lib/vendor.mediatek.hardware.gnss@1.1_vendor.so 0 0 0644
+vendor/lib/vendor.mediatek.hardware.mtkcodecservice@1.1_vendor.so 0 0 0644
+vendor/lib/vendor.mediatek.hardware.nvram@1.0_vendor.so 0 0 0644
+vendor/lib/vendor.mediatek.hardware.power@1.1_vendor.so 0 0 0644
+vendor/lib/vendor.mediatek.hardware.pq@2.0_vendor.so 0 0 0644
+vendor/lib/vendor.mediatek.hardware.radio.deprecated@1.1_vendor.so 0 0 0644
+vendor/lib/vendor.mediatek.hardware.radio@1.1_vendor.so 0 0 0644
+vendor/lib/vendor.mediatek.hardware.videotelephony@1.0_vendor.so 0 0 0644
+vendor/lib/volte_imsm.so 0 0 0644
+vendor/lib64 0 2000 0755
+vendor/lib64/egl 0 2000 0755
+vendor/lib64/egl/libGLES_mali.so 0 0 0644
+vendor/lib64/hw 0 2000 0755
+vendor/lib64/hw/android.hardware.audio.effect@2.0-impl.so 0 0 0644
+vendor/lib64/hw/android.hardware.audio@2.0-impl-mediatek.so 0 0 0644
+vendor/lib64/hw/android.hardware.camera.provider@2.4-impl-mediatek.so 0 0 0644
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so 0 0 0644
+vendor/lib64/hw/android.hardware.graphics.allocator@2.0-impl.so 0 0 0644
+vendor/lib64/hw/android.hardware.graphics.composer@2.1-impl.so 0 0 0644
+vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so 0 0 0644
+vendor/lib64/hw/android.hardware.keymaster@3.0-impl.so 0 0 0644
+vendor/lib64/hw/android.hardware.light@2.0-impl-mediatek.so 0 0 0644
+vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so 0 0 0644
+vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so 0 0 0644
+vendor/lib64/hw/android.hardware.sensors@1.0-impl-mediatek.so 0 0 0644
+vendor/lib64/hw/android.hardware.thermal@1.0-impl.so 0 0 0644
+vendor/lib64/hw/android.hardware.vibrator@1.0-impl.so 0 0 0644
+vendor/lib64/hw/audio.primary.default.so 0 0 0644
+vendor/lib64/hw/audio.primary.mt6797.so 0 0 0644
+vendor/lib64/hw/audio.r_submix.default.so 0 0 0644
+vendor/lib64/hw/audio.r_submix.mt6797.so 0 0 0644
+vendor/lib64/hw/audio.usb.default.so 0 0 0644
+vendor/lib64/hw/audio.usb.mt6797.so 0 0 0644
+vendor/lib64/hw/audio_policy.stub.so 0 0 0644
+vendor/lib64/hw/flp.mt6797.so 0 0 0644
+vendor/lib64/hw/gatekeeper.default.so 0 0 0644 libSoftGatekeeper.so
+vendor/lib64/hw/gps.mt6797.so 0 0 0644
+vendor/lib64/hw/gralloc.default.so 0 0 0644
+vendor/lib64/hw/gralloc.mt6797.so 0 0 0644
+vendor/lib64/hw/hwcomposer.mt6797.so 0 0 0644
+vendor/lib64/hw/libSoftGatekeeper.so 0 0 0644
+vendor/lib64/hw/lights.mt6797.so 0 0 0644
+vendor/lib64/hw/local_time.default.so 0 0 0644
+vendor/lib64/hw/memtrack.mt6797.so 0 0 0644
+vendor/lib64/hw/power.default.so 0 0 0644
+vendor/lib64/hw/power.mt6797.so 0 0 0644
+vendor/lib64/hw/sensors.mt6797.so 0 0 0644
+vendor/lib64/hw/thermal.mt6797.so 0 0 0644
+vendor/lib64/hw/vendor.mediatek.hardware.bluetooth@1.1-impl.so 0 0 0644
+vendor/lib64/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so 0 0 0644
+vendor/lib64/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so 0 0 0644
+vendor/lib64/hw/vendor.mediatek.hardware.gnss@1.1-impl.so 0 0 0644
+vendor/lib64/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-impl.so 0 0 0644
+vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.0-impl.so 0 0 0644
+vendor/lib64/hw/vendor.mediatek.hardware.power@1.1-impl.so 0 0 0644
+vendor/lib64/hw/vendor.mediatek.hardware.pq@2.0-impl.so 0 0 0644
+vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so 0 0 0644
+vendor/lib64/hw/vibrator.default.so 0 0 0644
+vendor/lib64/hw/vulkan.mt6797.so 0 0 0644 /vendor/lib64/egl/libGLES_mali.so
+vendor/lib64/lib3a.log.so 0 0 0644
+vendor/lib64/lib3a.so 0 0 0644
+vendor/lib64/lib3a_sample.so 0 0 0644
+vendor/lib64/libBnMtkCodec.so 0 0 0644
+vendor/lib64/libJpgDecPipe.so 0 0 0644
+vendor/lib64/libJpgEncPipe.so 0 0 0644
+vendor/lib64/libMtkOmxCore.so 0 0 0644
+vendor/lib64/libOpenCL.so 0 0 0644
+vendor/lib64/libPQDCjni.so 0 0 0644
+vendor/lib64/libPQjni.so 0 0 0644
+vendor/lib64/libRSDriver_mtk.so 0 0 0644
+vendor/lib64/libSonyIMX230PdafLibrary.so 0 0 0644
+vendor/lib64/libSwJpgCodec.so 0 0 0644
+vendor/lib64/libabfadp.so 0 0 0644
+vendor/lib64/libacdk.so 0 0 0644
+vendor/lib64/libaedv.so 0 0 0644
+vendor/lib64/libakl.so 0 0 0644
+vendor/lib64/libalsautils.so 0 0 0644
+vendor/lib64/libaudio_param_parser-vnd.so 0 0 0644
+vendor/lib64/libaudiocompensationfilter.so 0 0 0644
+vendor/lib64/libaudiocomponentengine.so 0 0 0644
+vendor/lib64/libaudiocustparam.so 0 0 0644
+vendor/lib64/libaudiodcrflt.so 0 0 0644
+vendor/lib64/libaudioprimarydevicehalifclient.so 0 0 0644
+vendor/lib64/libaudiosetting.so 0 0 0644
+vendor/lib64/libaudiotoolkit.so 0 0 0644
+vendor/lib64/libbessound_hd_mtk.so 0 0 0644
+vendor/lib64/libblisrc.so 0 0 0644
+vendor/lib64/libblisrc32.so 0 0 0644
+vendor/lib64/libbluetooth_hw_test.so 0 0 0644
+vendor/lib64/libbluetooth_mtk.so 0 0 0644
+vendor/lib64/libbluetooth_mtk_pure.so 0 0 0644
+vendor/lib64/libbluetooth_relayer.so 0 0 0644
+vendor/lib64/libbluetoothem_mtk.so 0 0 0644
+vendor/lib64/libbt-vendor.so 0 0 0644
+vendor/lib64/libbwc.so 0 0 0644
+vendor/lib64/libc2kutils.so 0 0 0644
+vendor/lib64/libcam.camadapter.so 0 0 0644
+vendor/lib64/libcam.camshot.so 0 0 0644
+vendor/lib64/libcam.client.so 0 0 0644
+vendor/lib64/libcam.feature_utils.so 0 0 0644
+vendor/lib64/libcam.featureio.pipe.panorama.so 0 0 0644
+vendor/lib64/libcam.hal3a.v3.dng.so 0 0 0644
+vendor/lib64/libcam.hal3a.v3.lsctbl.so 0 0 0644
+vendor/lib64/libcam.hal3a.v3.nvram.so 0 0 0644
+vendor/lib64/libcam.hal3a.v3.so 0 0 0644
+vendor/lib64/libcam.halsensor.so 0 0 0644
+vendor/lib64/libcam.iopipe.so 0 0 0644
+vendor/lib64/libcam.jni.lomohaljni.so 0 0 0644
+vendor/lib64/libcam.lcs.so 0 0 0644
+vendor/lib64/libcam.legacypipeline.so 0 0 0644
+vendor/lib64/libcam.paramsmgr.so 0 0 0644
+vendor/lib64/libcam.utils.sensorprovider.so 0 0 0644
+vendor/lib64/libcam.vhdr.so 0 0 0644
+vendor/lib64/libcam1_utils.so 0 0 0644
+vendor/lib64/libcam3_hwpipeline.so 0 0 0644
+vendor/lib64/libcam3a_imem.so 0 0 0644
+vendor/lib64/libcam_extension.so 0 0 0644
+vendor/lib64/libcam_platform.so 0 0 0644
+vendor/lib64/libcamalgo.asd.so 0 0 0644
+vendor/lib64/libcamalgo.autorama.so 0 0 0644
+vendor/lib64/libcamalgo.dngop.so 0 0 0644
+vendor/lib64/libcamalgo.eis.so 0 0 0644
+vendor/lib64/libcamalgo.fdft.so 0 0 0644
+vendor/lib64/libcamalgo.hdr.so 0 0 0644
+vendor/lib64/libcamalgo.so 0 0 0644
+vendor/lib64/libcamalgo.utility.so 0 0 0644
+vendor/lib64/libcamalgo.warp.so 0 0 0644
+vendor/lib64/libcamdrv_imem.so 0 0 0644
+vendor/lib64/libcamdrv_isp.so 0 0 0644
+vendor/lib64/libcamdrv_tuning_mgr.so 0 0 0644
+vendor/lib64/libcamdrv_twin.so 0 0 0644
+vendor/lib64/libcameracustom.so 0 0 0644
+vendor/lib64/libccap.so 0 0 0644
+vendor/lib64/libccci_util.so 0 0 0644
+vendor/lib64/libcharon-ss.so 0 0 0644
+vendor/lib64/libcrypto-ss.so 0 0 0644
+vendor/lib64/libcurl-ss.so 0 0 0644
+vendor/lib64/libcustom_nvram.so 0 0 0644
+vendor/lib64/libcvsd_mtk.so 0 0 0644
+vendor/lib64/libdirect-coredump.so 0 0 0644
+vendor/lib64/libdpframework.so 0 0 0644
+vendor/lib64/libeffecthal.base.so 0 0 0644
+vendor/lib64/libeffects.so 0 0 0644
+vendor/lib64/libfeature.face.so 0 0 0644
+vendor/lib64/libfeature_3dnr.so 0 0 0644
+vendor/lib64/libfeature_eis.so 0 0 0644
+vendor/lib64/libfile_op.so 0 0 0644
+vendor/lib64/libfmcust.so 0 0 0644
+vendor/lib64/libged.so 0 0 0644
+vendor/lib64/libgpu_aux.so 0 0 0644
+vendor/lib64/libgralloc_extra.so 0 0 0644
+vendor/lib64/libhdrproc.so 0 0 0644
+vendor/lib64/libhwc2on1adapter.so 0 0 0644
+vendor/lib64/libhwm.so 0 0 0644
+vendor/lib64/libhydra.so 0 0 0644
+vendor/lib64/libifcutils_mtk.so 0 0 0644
+vendor/lib64/libimageio.so 0 0 0644
+vendor/lib64/libimageio_plat_drv.so 0 0 0644
+vendor/lib64/libimageio_plat_pipe.so 0 0 0644
+vendor/lib64/libion_mtk.so 0 0 0644
+vendor/lib64/libion_ulit.so 0 0 0644
+vendor/lib64/libipsec_ims_shr.so 0 0 0644
+vendor/lib64/libkeystore-engine-wifi-hidl.so 0 0 0644
+vendor/lib64/libkeystore-wifi-hidl.so 0 0 0644
+vendor/lib64/libm4u.so 0 0 0644
+vendor/lib64/libmal.so 0 0 0644
+vendor/lib64/libmal_datamngr.so 0 0 0644
+vendor/lib64/libmal_epdga.so 0 0 0644
+vendor/lib64/libmal_imsmngr.so 0 0 0644
+vendor/lib64/libmal_mdmngr.so 0 0 0644
+vendor/lib64/libmal_nwmngr.so 0 0 0644
+vendor/lib64/libmal_rds.so 0 0 0644
+vendor/lib64/libmal_rilproxy.so 0 0 0644
+vendor/lib64/libmal_simmngr.so 0 0 0644
+vendor/lib64/libmdfx.so 0 0 0644
+vendor/lib64/libmfllcore.so 0 0 0644
+vendor/lib64/libmhalImageCodec.so 0 0 0644
+vendor/lib64/libmmprofile.so 0 0 0644
+vendor/lib64/libmrdumpv.so 0 0 0644
+vendor/lib64/libmsbc_mtk.so 0 0 0644
+vendor/lib64/libmtk_drvb.so 0 0 0644
+vendor/lib64/libmtkaudio_utils.so 0 0 0644
+vendor/lib64/libmtkcam.adv_setting.so 0 0 0644
+vendor/lib64/libmtkcam.featurepipe.streaming.so 0 0 0644
+vendor/lib64/libmtkcam_cct.so 0 0 0644
+vendor/lib64/libmtkcam_debugutils.so 0 0 0644
+vendor/lib64/libmtkcam_device1.so 0 0 0644
+vendor/lib64/libmtkcam_device3.so 0 0 0644
+vendor/lib64/libmtkcam_device3_app.so 0 0 0644
+vendor/lib64/libmtkcam_exif.so 0 0 0644
+vendor/lib64/libmtkcam_fdvt.so 0 0 0644
+vendor/lib64/libmtkcam_fwkutils.so 0 0 0644
+vendor/lib64/libmtkcam_grallocutils.so 0 0 0644
+vendor/lib64/libmtkcam_hwnode.so 0 0 0644
+vendor/lib64/libmtkcam_hwutils.so 0 0 0644
+vendor/lib64/libmtkcam_imgbuf.so 0 0 0644
+vendor/lib64/libmtkcam_metadata.so 0 0 0644
+vendor/lib64/libmtkcam_metastore.so 0 0 0644
+vendor/lib64/libmtkcam_modulefactory_aaa.so 0 0 0644
+vendor/lib64/libmtkcam_modulefactory_custom.so 0 0 0644
+vendor/lib64/libmtkcam_modulefactory_drv.so 0 0 0644
+vendor/lib64/libmtkcam_modulefactory_feature.so 0 0 0644
+vendor/lib64/libmtkcam_modulehelper.so 0 0 0644
+vendor/lib64/libmtkcam_pipeline.so 0 0 0644
+vendor/lib64/libmtkcam_rsc.so 0 0 0644
+vendor/lib64/libmtkcam_stdutils.so 0 0 0644
+vendor/lib64/libmtkcam_streamutils.so 0 0 0644
+vendor/lib64/libmtkcam_sysutils.so 0 0 0644
+vendor/lib64/libmtkjpeg.so 0 0 0644
+vendor/lib64/libmtklimiter.so 0 0 0644
+vendor/lib64/libmtkshifter.so 0 0 0644
+vendor/lib64/libnativecheck-jni.so 0 0 0644
+vendor/lib64/libnvram.so 0 0 0644
+vendor/lib64/libnvram_daemon_callback.so 0 0 0644
+vendor/lib64/libnvram_platform.so 0 0 0644
+vendor/lib64/libnvram_sec.so 0 0 0644
+vendor/lib64/libnvramagentclient.so 0 0 0644
+vendor/lib64/libperfctl.so 0 0 0644
+vendor/lib64/libperfservice.so 0 0 0644
+vendor/lib64/libperfservicenative.so 0 0 0644
+vendor/lib64/libpowerhalwrap.so 0 0 0644
+vendor/lib64/libpq_cust.so 0 0 0644
+vendor/lib64/libpq_cust_base.so 0 0 0644
+vendor/lib64/libpq_prot.so 0 0 0644
+vendor/lib64/libratconfig.so 0 0 0644
+vendor/lib64/libril.so 0 0 0644
+vendor/lib64/librilmtk.so 0 0 0644
+vendor/lib64/librilproxy.so 0 0 0644
+vendor/lib64/librilproxyutils.so 0 0 0644
+vendor/lib64/librilutilsmtk.so 0 0 0644
+vendor/lib64/libsensorndkbridge.so 0 0 0644
+vendor/lib64/libsimaka.so 0 0 0644
+vendor/lib64/libspeech_enh_lib.so 0 0 0644
+vendor/lib64/libssl-ss.so 0 0 0644
+vendor/lib64/libstagefrighthw.so 0 0 0644
+vendor/lib64/libstrongswan.so 0 0 0644
+vendor/lib64/libsysenv.so 0 0 0644
+vendor/lib64/libtinycompress.so 0 0 0644
+vendor/lib64/libtinyxml.so 0 0 0644
+vendor/lib64/libudf.so 0 0 0644
+vendor/lib64/libui_ext.so 0 0 0644
+vendor/lib64/libvcodec_cap.so 0 0 0644
+vendor/lib64/libvcodec_utility.so 0 0 0644
+vendor/lib64/libvcodecdrv.so 0 0 0644
+vendor/lib64/libverno.so 0 0 0644
+vendor/lib64/libwapi.so 0 0 0644
+vendor/lib64/libwifi-hal.so 0 0 0644
+vendor/lib64/libwifitest.so 0 0 0644
+vendor/lib64/libwo.so 0 0 0644
+vendor/lib64/libwpa_client.so 0 0 0644
+vendor/lib64/libwvhidl.so 0 0 0644
+vendor/lib64/mediadrm 0 2000 0755
+vendor/lib64/mediadrm/libdrmclearkeyplugin.so 0 0 0644
+vendor/lib64/mediadrm/libmockdrmcryptoplugin.so 0 0 0644
+vendor/lib64/mediadrm/libwvdrmengine.so 0 0 0644
+vendor/lib64/mtk-ril.so 0 0 0644
+vendor/lib64/mtk-rilproxy.so 0 0 0644
+vendor/lib64/soundfx 0 2000 0755
+vendor/lib64/soundfx/libaudiopreprocessing.so 0 0 0644
+vendor/lib64/soundfx/libbundlewrapper.so 0 0 0644
+vendor/lib64/soundfx/libdownmix.so 0 0 0644
+vendor/lib64/soundfx/libeffectproxy.so 0 0 0644
+vendor/lib64/soundfx/libldnhncr.so 0 0 0644
+vendor/lib64/soundfx/libreverbwrapper.so 0 0 0644
+vendor/lib64/soundfx/libvisualizer.so 0 0 0644
+vendor/lib64/vendor.mediatek.hardware.audio@2.1_vendor.so 0 0 0644
+vendor/lib64/vendor.mediatek.hardware.bluetooth@1.1_vendor.so 0 0 0644
+vendor/lib64/vendor.mediatek.hardware.camera.ccap@1.0_vendor.so 0 0 0644
+vendor/lib64/vendor.mediatek.hardware.camera.device@1.1_vendor.so 0 0 0644
+vendor/lib64/vendor.mediatek.hardware.camera.lomoeffect@1.0_vendor.so 0 0 0644
+vendor/lib64/vendor.mediatek.hardware.gnss@1.1_vendor.so 0 0 0644
+vendor/lib64/vendor.mediatek.hardware.imsa@1.0_vendor.so 0 0 0644
+vendor/lib64/vendor.mediatek.hardware.lbs@1.0_vendor.so 0 0 0644
+vendor/lib64/vendor.mediatek.hardware.mtkcodecservice@1.1_vendor.so 0 0 0644
+vendor/lib64/vendor.mediatek.hardware.nvram@1.0_vendor.so 0 0 0644
+vendor/lib64/vendor.mediatek.hardware.power@1.1_vendor.so 0 0 0644
+vendor/lib64/vendor.mediatek.hardware.pq@2.0_vendor.so 0 0 0644
+vendor/lib64/vendor.mediatek.hardware.radio.deprecated@1.1_vendor.so 0 0 0644
+vendor/lib64/vendor.mediatek.hardware.radio@1.1_vendor.so 0 0 0644
+vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0_vendor.so 0 0 0644
+vendor/lib64/vendor.mediatek.hardware.wfo@1.0_vendor.so 0 0 0644
+vendor/lib64/vendor.mediatek.hardware.wifi.hostapd@1.0_vendor.so 0 0 0644
+vendor/lib64/vendor.mediatek.hardware.wifi.supplicant@1.1_vendor.so 0 0 0644
+vendor/lib64/volte_imsm.so 0 0 0644
+vendor/lost+found 0 0 0700
+vendor/manifest.xml 0 0 0644
+vendor/media 0 2000 0755
+vendor/media/LMspeed_508.emd 0 0 0644
+vendor/media/PFFprec_600.emd 0 0 0644
+vendor/operator 0 2000 0755
+vendor/operator/app 0 2000 0755
+vendor/overlay 0 2000 0755
+vendor/overlay/framework-res__auto_generated_rro.apk 0 0 0644
+vendor/res 0 2000 0755
+vendor/res/images 0 2000 0755
+vendor/res/images/lcd_test_00.png 0 0 0644
+vendor/res/images/lcd_test_01.png 0 0 0644
+vendor/res/images/lcd_test_02.png 0 0 0644
+vendor/res/sound 0 2000 0755
+vendor/res/sound/CA2CA.ogg 0 0 0644
+vendor/res/sound/CADetected.ogg 0 0 0644
+vendor/res/sound/ringtone.wav 0 0 0644
+vendor/res/sound/testpattern1.wav 0 0 0644
+vendor/ueventd.rc 0 0 0644
