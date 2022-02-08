@@ -12,6 +12,9 @@ Stock, for compare
 
 ![Stock, for compare](https://github.com/LordArrin/different_trash/blob/main/Screenshot_30.png)
 
-Credits: https://github.com/Iscle/OrangePi_4G-IOT_Android_8.1_BSP
-         https://dumps.tadiphone.dev/dumps/meizu/pro7plus
-         https://elementalx.org/devices/pixel/
+Credits: 
+https://github.com/Iscle/OrangePi_4G-IOT_Android_8.1_BSP
+
+https://dumps.tadiphone.dev/dumps/meizu/pro7plus
+         
+https://elementalx.org/devices/pixel/
