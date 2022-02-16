@@ -9,30 +9,37 @@
 
 
 
-
+# Your data lives here, treat it well :-)
 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/userdata /data ext4 noatime,nodev,noauto_da_alloc wait,check,resize
 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/cache /cache ext4 noatime,nodev,noauto_da_alloc,discard wait,check
 
+# NVRAM
 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/protect1 /protect_f ext4 noatime,nodev,noauto_da_alloc,commit=1,nodelalloc wait,check,formattable
 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/protect2 /protect_s ext4 noatime,nodev,noauto_da_alloc,commit=1,nodelalloc wait,check,formattable
 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/nvdata /nvdata ext4 noatime,nodev,noauto_da_alloc,discard wait,check,formattable
 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/nvcfg /nvcfg ext4 noatime,nodev,noauto_da_alloc,commit=1,nodelalloc wait,check,formattable
+/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/nvram /nvram emmc defaults defaults
 # 112 "vendor/mediatek/proprietary/hardware/fstab/mt6797/fstab.in"
 
+# Factory Reset Protection - disabled
 
 /devices/mtk-msdc.0/11240000.msdc1* auto auto defaults voldmanaged=sdcard1:auto
 /devices/soc/11270000.usb3_xhci* auto auto defaults voldmanaged=usbotg:auto
-/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/nvram /nvram emmc defaults defaults
 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/proinfo /proinfo emmc defaults defaults
-/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/lk /bootloader emmc defaults defaults
-/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/lk2 /bootloader2 emmc defaults defaults
 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/para /misc emmc defaults defaults
 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/boot /boot emmc defaults defaults
 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/recovery /recovery emmc defaults defaults
-/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/logo /logo emmc defaults defaults
 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/expdb /expdb emmc defaults defaults
 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/seccfg /seccfg emmc defaults defaults
 
+# Logo
+/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/logo /logo emmc defaults defaults
+
+# Bootloader
+/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/lk /bootloader emmc defaults defaults
+/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/lk2 /bootloader2 emmc defaults defaults
+
+# TEE (Trusted Execution Environment)
 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/tee1 /tee1 emmc defaults defaults
 /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/tee2 /tee2 emmc defaults defaults
 
