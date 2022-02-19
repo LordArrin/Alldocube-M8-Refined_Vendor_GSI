@@ -24,6 +24,7 @@ It was released in December 2019. His SoC is MediaTek Helio X27 (MT6797X), which
 <img src="https://github.com/LordArrin/different_trash/blob/fc37bd7d1ec60dcd12391efbf78bfbe168598464/alldocube-m8-fill.jpg"/>
 
 Credits: 
+
 https://github.com/Iscle/OrangePi_4G-IOT_Android_8.1_BSP
 
 https://dumps.tadiphone.dev/dumps/meizu/pro7plus
