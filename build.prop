@@ -1,6 +1,5 @@
 ro.boot.dynamic_partitions=false
 ro.product.first_api_level=25
-ro.vendor.build.security_patch=2020-11-01
 ro.vendor.build.security_patch=2021-12-01
 ro.vendor.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
 ro.vendor.product.cpu.abilist32=armeabi-v7a,armeabi

@@ -344,6 +344,7 @@
 /vendor/etc/wifi/p2p_supplicant_overlay.conf u:object_r:vendor_configs_file:s0
 /vendor/etc/wifi/wpa_supplicant.conf u:object_r:vendor_configs_file:s0
 /vendor/etc/wifi/wpa_supplicant_overlay.conf u:object_r:vendor_configs_file:s0
+/vendor/framework u:object_r:vendor_framework_file:s0
 /vendor/lib/egl u:object_r:same_process_hal_file:s0
 /vendor/lib/egl/egl.cfg u:object_r:same_process_hal_file:s0
 /vendor/lib/egl/libGLES_mali.so u:object_r:same_process_hal_file:s0
@@ -359,3 +360,4 @@
 /vendor/lib64/hw/gralloc.default.so u:object_r:same_process_hal_file:s0
 /vendor/manifest.xml u:object_r:vendor_configs_file:s0
 /vendor/overlay u:object_r:vendor_overlay_file:s0
+/vendor/overlay/framework-res__auto_generated_rro.apk u:object_r:vendor_overlay_file:s0

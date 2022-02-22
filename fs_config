@@ -236,6 +236,7 @@ vendor/bin/xxd 0 2000 0755 toybox_vendor
 vendor/bin/yes 0 2000 0755 toybox_vendor
 vendor/build.prop 0 0 0600
 vendor/data 0 2000 0755
+vendor/data/camerafix.sh 0 0 0644
 vendor/data/misc 0 2000 0755
 vendor/data/misc/ProjectConfig.mk 0 0 0644
 vendor/default.prop 0 0 0600
@@ -1480,5 +1481,5 @@ vendor/media 0 2000 0755
 vendor/media/LMspeed_508.emd 0 0 0644
 vendor/media/PFFprec_600.emd 0 0 0644
 vendor/overlay 0 2000 0755
-vendor/overlay/treble-overlay-alldocube-m8-2.apk 0 0 0644
+vendor/overlay/framework-res__auto_generated_rro.apk 0 0 0644
 vendor/ueventd.rc 0 0 0644
