@@ -17,6 +17,7 @@ killall camerahalserver
 killall cameraserver   
 done    
 
+He is also in /vendor/data as camerafix.sh
     
 Works on stock ROM, but I recommend GSI A11, especially this one by eremitein.
 https://sourceforge.net/projects/treblerom/files/crDRom11/
