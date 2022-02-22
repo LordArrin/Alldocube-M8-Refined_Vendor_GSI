@@ -44,6 +44,13 @@ It was released in December 2019. His SoC is MediaTek Helio X27 (MT6797X), which
 <img src="https://github.com/LordArrin/different_trash/blob/main/viber_2022-02-22_09-02-03-278-lines-scale-0_50x-gigapixel.jpg"/>    
 https://browser.geekbench.com/v5/cpu/12931261
 
+vs stock: https://browser.geekbench.com/search?k=v5_cpu&q=ALLDOCUBE+M8 
+
+345/1074   
+187/1146   
+171/1131   
+...  
+
 Credits: 
 
 https://github.com/Iscle/OrangePi_4G-IOT_Android_8.1_BSP
