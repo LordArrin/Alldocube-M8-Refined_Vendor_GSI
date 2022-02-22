@@ -1,27 +1,23 @@
 # Alldocube-M8-Refined_Vendor_GSI
 Modded and tweaked vendor for GSI ROMs.
 
-*Disabled useless mediatek's trash
-*Disabled camera's fps drop
-*Disabled encryption by default
-*Disabled many perf daemons
-*Added optimised settings from the other devices. 
-*So much else that I've forgot)
+*Disabled useless mediatek's trash   
+*Disabled camera's fps drop   
+*Disabled encryption by default   
+*Disabled many perf daemons   
+*Added optimised settings from the other devices.    
+*So much else that I've forgot)   
 
 To fix camera add script to autorun: 
 
 
-#!/system/bin/sh
+#!/system/bin/sh   
+sleep 60    
+killall camerahalserver   
+killall cameraserver   
+done    
 
-sleep 60
-
-killall camerahalserver
-
-killall cameraserver
-
-done
-
-
+    
 Works on stock ROM, but I recommend GSI A11, especially this one by eremitein.
 https://sourceforge.net/projects/treblerom/files/crDRom11/
 
