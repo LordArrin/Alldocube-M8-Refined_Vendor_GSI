@@ -8,6 +8,20 @@ Modded and tweaked vendor for GSI ROMs.
 *Added optimised settings from the other devices. 
 *So much else that I've forgot)
 
+To fix camera add script to autorun: 
+
+
+#!/system/bin/sh
+
+sleep 60
+
+killall camerahalserver
+
+killall cameraserver
+
+done
+
+
 Works on stock ROM, but I recommend GSI A11, especially this one by eremitein.
 https://sourceforge.net/projects/treblerom/files/crDRom11/
 
