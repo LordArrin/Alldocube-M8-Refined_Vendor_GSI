@@ -18,6 +18,8 @@ killall cameraserver
 done    
 
 He is also in /vendor/data as camerafix.sh
+
+For better batterysaving turn on wq_power_saving throw the any kernel manager app. I recommend EX Kernel Manager.
     
 Works on stock ROM, but I recommend GSI A11, especially this one by eremitein.
 https://sourceforge.net/projects/treblerom/files/crDRom11/
