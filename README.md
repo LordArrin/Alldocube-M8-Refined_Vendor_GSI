@@ -68,11 +68,13 @@ vs stock: https://benchmarks.ul.com/hardware/tablet/Alldocube+M8+review
 
 - from -1% to +40% difference!
 
-Credits: 
+Credits and links: 
 
 https://github.com/Iscle/OrangePi_4G-IOT_Android_8.1_BSP
 
 https://dumps.tadiphone.dev/dumps/meizu/pro7plus
+
+https://dumps.tadiphone.dev/dumps/shift/shift6m
          
 https://elementalx.org/devices/pixel/
 
