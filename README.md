@@ -22,7 +22,7 @@ He is also in /vendor/data as camerafix.sh
 Works on stock ROM, but I recommend GSI A11, especially this one by eremitein.
 https://sourceforge.net/projects/treblerom/files/crDRom11/
 
-The UMIDIGI A5 Pro (codenamed _"M8"_) this is a budget-class tablet from Alldocube.
+The Alldocube M8 (codenamed _"M8"_) this is a budget-class tablet from Alldocube.
 It was released in December 2019. His SoC is MediaTek Helio X27 (MT6797X), which provides three processor clusters, each designed to more efficiently handle different types of workloads. The premium MediaTek Helio X27 features a maximized clock frequency across all three clusters, with an unequaled maximum of 2.6GHz on the powerful ARM Cortex-A72 cluster.
 
 
