@@ -30,9 +30,9 @@ It was released in December 2019. His SoC is MediaTek Helio X27 (MT6797X), which
 | CPU                     | Deca-core                                                                                                                      |
 | Chipset                 | Mediatek Helio X27 (MT6797X)                                                                                                   |
 | GPU                     | Mali-T880 MP4                                                                                                                  |
-| Memory                  | 3 GB RAM                                                                                                                       |
-| Shipped Android Version | 8.0                                                                                                                            |
-| Storage                 | 32 GB                                                                                                                          |
+| Memory                  | 3 GB LPDDR3 RAM Dual-channel                                                                                                   |
+| Shipped Android Version | 8.0 x64                                                                                                                        |
+| Storage                 | 32 GB EMMC5.1                                                                                                                  |
 | Battery                 | Non-removable 5500 mAh battery                                                                                                 |
 | Display                 | 1200 x 1920 pixels, 5:8 ratio (~283 ppi density)                                                                               |
 | Camera                  | 5MP + 2MP withot LED and legacy Camera2Api support                                                                             | 
