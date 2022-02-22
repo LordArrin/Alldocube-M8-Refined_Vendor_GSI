@@ -1,4 +1,4 @@
-# Alldocube-M8-Refined_Vendor_GSI
+# Alldocube M8 Refined Vendor GSI
 Modded and tweaked vendor for GSI ROMs.
 
 *Disabled useless mediatek's trash   
