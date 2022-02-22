@@ -43,7 +43,8 @@ It was released in December 2019. His SoC is MediaTek Helio X27 (MT6797X), which
 ## Device picture
 <img src="https://github.com/LordArrin/different_trash/blob/fc37bd7d1ec60dcd12391efbf78bfbe168598464/alldocube-m8-fill.jpg"/>
 
-#Benchmarks    
+#Benchmarks   
+Geekbench 5.44    
 <img src="https://github.com/LordArrin/different_trash/blob/main/viber_2022-02-22_09-02-03-278-lines-scale-0_50x-gigapixel.jpg"/>    
 https://browser.geekbench.com/v5/cpu/12931261
 
@@ -53,6 +54,16 @@ vs stock: https://browser.geekbench.com/search?k=v5_cpu&q=ALLDOCUBE+M8
 187/1146   
 171/1131   
 ...  
+- from 7% to 121% better in single-core and from -4% to +25% in multi-core!
+
+3DMark for Android 2.2.4801     
+<img src="https://github.com/LordArrin/different_trash/blob/main/2022-02-22_09-56-15-002-gigapixel-lines-scale-0_50x%20(1).jpg"/>   
+<img src="https://github.com/LordArrin/different_trash/blob/main/2022-02-22_09-56-15-002-gigapixel-lines-scale-0_50x%20(2).jpg"/>    
+<img src="https://github.com/LordArrin/different_trash/blob/main/2022-02-22_09-56-15-002-gigapixel-lines-scale-0_50x%20(3).jpg"/>    
+
+vs stock: https://benchmarks.ul.com/hardware/tablet/Alldocube+M8+review
+
+- from -1% to +40% difference!
 
 Credits: 
 
