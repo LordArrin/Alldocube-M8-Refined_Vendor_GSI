@@ -1,4 +1,7 @@
 # Alldocube M8 Refined Vendor GSI
+
+# Device was sold, work was stopped. Goodbye)
+
 Modded and tweaked vendor for GSI ROMs.
 
 *Disabled useless mediatek's trash   
